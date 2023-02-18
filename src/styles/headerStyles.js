@@ -12,9 +12,28 @@ export const HeaderStyles = styled.header`
   width: 100%;
 
   div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     padding: 20px;
   }
 
+  img {
+    width: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
 
   @media (min-width:600px) {
     
