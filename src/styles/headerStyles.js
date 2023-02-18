@@ -37,6 +37,10 @@ export const HeaderStyles = styled.header`
     text-align: center;
   }
 
+  p {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
   @media (min-width:600px) {
     
   }
