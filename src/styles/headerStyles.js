@@ -38,7 +38,7 @@ export const HeaderStyles = styled.header`
   }
 
   p {
-    font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
   }
 
   @media (min-width:600px) {

@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: gray;
     display: flex;
     flex-direction: column;
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: monospace, sans-serif;
     justify-content: flex-start;
     height: 100vh;
     width: 100%;
