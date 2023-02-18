@@ -7,23 +7,21 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
 
-  /* #root {
-    align-items: center;
-    background: transparent;
+  #root {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
     height: 100vh;
-  } */
+  }
 
   body {
     align-items: center;
     color: white;
-    background-color: black;
+    background-color: gray;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     height: 100vh;
     width: 100%;
   }
