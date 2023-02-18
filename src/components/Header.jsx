@@ -13,20 +13,28 @@ function Header() {
 
       <section>
         <div>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMoeFDPBMcmQo60F8tvmWcut-WrdNfYwr9UzCU-Mw48X3h_peb2p-ed0-VMtmkm1YX5F8&usqp=CAU" alt="icon-test" />
-          <Link to="/" > Home </Link>
+          <Link to="/">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMoeFDPBMcmQo60F8tvmWcut-WrdNfYwr9UzCU-Mw48X3h_peb2p-ed0-VMtmkm1YX5F8&usqp=CAU" alt="icon-test" />
+            <p>Home</p>
+          </Link>
         </div>
         <div>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMoeFDPBMcmQo60F8tvmWcut-WrdNfYwr9UzCU-Mw48X3h_peb2p-ed0-VMtmkm1YX5F8&usqp=CAU" alt="icon-test" />
-          <Link to="/projects" > Projects </Link>
+          <Link to="/projects">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMoeFDPBMcmQo60F8tvmWcut-WrdNfYwr9UzCU-Mw48X3h_peb2p-ed0-VMtmkm1YX5F8&usqp=CAU" alt="icon-test" />
+            <p>Projects</p>
+          </Link>
         </div>
         <div>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMoeFDPBMcmQo60F8tvmWcut-WrdNfYwr9UzCU-Mw48X3h_peb2p-ed0-VMtmkm1YX5F8&usqp=CAU" alt="icon-test" />
-          <Link to="/skills" > Skills </Link>
+          <Link to="/skills">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMoeFDPBMcmQo60F8tvmWcut-WrdNfYwr9UzCU-Mw48X3h_peb2p-ed0-VMtmkm1YX5F8&usqp=CAU" alt="icon-test" />
+            <p>Skills</p>
+          </Link>
         </div>
         <div>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMoeFDPBMcmQo60F8tvmWcut-WrdNfYwr9UzCU-Mw48X3h_peb2p-ed0-VMtmkm1YX5F8&usqp=CAU" alt="icon-test" />
-          <Link to="/profile" > Profile </Link>
+          <Link to="/profile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMoeFDPBMcmQo60F8tvmWcut-WrdNfYwr9UzCU-Mw48X3h_peb2p-ed0-VMtmkm1YX5F8&usqp=CAU" alt="icon-test" />
+            <p>Profile</p>
+          </Link>
         </div>
       </section>
     </HeaderStyles>

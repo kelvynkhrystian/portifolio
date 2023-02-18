@@ -31,8 +31,10 @@ export const HeaderStyles = styled.header`
   }
 
   a {
-    text-decoration: none;
+    align-items: center;
     color: white;
+    text-decoration: none;
+    text-align: center;
   }
 
   @media (min-width:600px) {
