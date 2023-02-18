@@ -7,7 +7,7 @@ import Skills from './pages/Skills'
 function App() {
   return (
     <>
-      <Route path="/" component={ Home } />
+      <Route exact path="/" component={ Home } />
       <Route path="/projects" component={ Projects } />
       {/* <Route path="/projects/id" component={ Projects } /> */}
       <Route path="/skills" component={ Skills } />
