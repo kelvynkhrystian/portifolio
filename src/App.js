@@ -1,8 +1,18 @@
+import { Route } from 'react-route-dom';
+import Home from './pages/Home'
+import Profile from './pages/Profile'
+import Projects from './pages/Projects'
+import Skills from './pages/Skills'
+
 function App() {
   return (
-    <div className="App">
-      portifolio K
-    </div>
+    <>
+      <Route path="/" component={ Home } />
+      <Route path="/projects" component={ Projects } />
+      {/* <Route path="/projects/id" component={ Projects } /> */}
+      <Route path="/skills" component={ Skills } />
+      <Route path="/profile" component={ Profile } />
+    </>
   );
 }
 
