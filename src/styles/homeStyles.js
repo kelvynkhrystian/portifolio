@@ -80,8 +80,8 @@ export const HomeStyles = styled.article`
     padding: 0;
 
     img {
-      opacity: 0.2;
-      width: 300px;
+      opacity: 0.1;
+      width: 333px;
     }
     h1 {
       font-size: 3em;
@@ -113,9 +113,9 @@ export const HomeStyles = styled.article`
     }
 
     .rigth-home {
+      left: 0;
       position: absolute;
       top: 20%;
-      left: 0;
       z-index: 1;
     }
 
