@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
-import fundo from '../imgs/background/fundo-completo-pc.png'
- 
+import fundo from '../imgs/background/cubo.gif'
+
 const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
@@ -20,7 +20,10 @@ const GlobalStyle = createGlobalStyle`
     align-items: center;
     color: white;
     background-image: url(${fundo});
-    background-size: 101% 130%;
+    background-color: #0f0f0f;
+    background-size: 30% 60%;
+    background-repeat: no-repeat;
+    background-position: right 15% bottom 45%;
     display: flex;
     flex-direction: column;
     font-family: 'Patua One', cursive;
@@ -28,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
     /* height: 100vh; */
     width: 100%;
   }
-  
+
 
   @media (min-width:600px) {
     body {
@@ -36,5 +39,5 @@ const GlobalStyle = createGlobalStyle`
     };
   }
 `;
- 
+
 export default GlobalStyle;

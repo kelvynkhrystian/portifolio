@@ -10,7 +10,7 @@ function Header() {
   return (
     <HeaderStyles>
 
-      <div>
+      <div className='left'>
         <h3>KELVYN K.</h3>
         <h4>Dev Full Stack</h4>
       </div>

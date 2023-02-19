@@ -8,6 +8,7 @@ export const HeaderStyles = styled.header`
   color: white;
   display: flex;
   justify-content: space-between;
+  padding: 8px 0;
   width: 100%;
 
   div {
@@ -15,23 +16,31 @@ export const HeaderStyles = styled.header`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 15px;
     text-align: center;
+  }
+
+  div.left {
+    margin-left: 50px;
   }
 
   section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-right: 50px;
 
     div {
       filter: brightness(70%);
-      padding: 0px 20px;
+      margin-left: 50px;
     }
     
     div:hover {
       filter: brightness(100%);
     }
+
+    div:active {
+    transform: scale(0.95);
+  }
   }
 
   img {
