@@ -74,6 +74,7 @@ export const HomeStyles = styled.article`
   }
 
   @media (max-width:600px) {
+
     align-items: center;
     flex-direction: column;
     height: 92%;
@@ -85,12 +86,15 @@ export const HomeStyles = styled.article`
       width: 90%;
       margin-right: 0;
     }
+
     h1 {
       font-size: 3em;
     }
+
     p {
       font-size: 2em;
     }
+    
     button {
       font-size: 1.2em;
       height: 40px;
@@ -123,8 +127,6 @@ export const HomeStyles = styled.article`
       top: 20%;
       width: 100%;
       z-index: 1;
-
-
     }
 
     .left-home {

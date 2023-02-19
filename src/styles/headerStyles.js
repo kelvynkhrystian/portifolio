@@ -81,6 +81,7 @@ export const HeaderStyles = styled.header`
 
       div {
         margin: 0;
+        filter: brightness(50%);
       }
     }
   }
