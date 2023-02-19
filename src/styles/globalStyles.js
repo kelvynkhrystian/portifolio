@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import fundo from '../imgs/background/cubo.gif'
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -19,11 +18,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     align-items: center;
     color: white;
-    background-image: url(${fundo});
     background-color: #0f0f0f;
-    background-size: 30% 60%;
-    background-repeat: no-repeat;
-    background-position: right 15% bottom 45%;
     display: flex;
     flex-direction: column;
     font-family: 'Patua One', cursive;

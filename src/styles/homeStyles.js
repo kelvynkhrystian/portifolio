@@ -5,8 +5,8 @@ export const HomeStyles = styled.article`
   align-items: flex-start;
   color: white;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 100px 50px;
   width: 100%;
 
@@ -60,6 +60,14 @@ export const HomeStyles = styled.article`
     
   }
 
+  div.left-header {
+
+  }
+  
+  img {
+    margin-right: 50px;
+    width: 350px;
+  }
   
 
   @media (min-width:600px) {
