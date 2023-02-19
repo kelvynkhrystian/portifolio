@@ -67,7 +67,7 @@ export const HeaderStyles = styled.header`
 
     bottom:0;
     left: 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
 
     div.left {

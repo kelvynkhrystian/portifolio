@@ -6,7 +6,6 @@ export const HomeStyles = styled.article`
   color: white;
   display: flex;
   flex-direction: row;
-  height: 100vh;
   justify-content: space-between;
   padding: 100px 50px;
   padding-bottom: 0;
@@ -76,14 +75,13 @@ export const HomeStyles = styled.article`
   @media (max-width:600px) {
     align-items: center;
     flex-direction: column;
-    height: 100%;
     justify-content: space-evenly;
     padding: 0;
     
 
     img {
       opacity: 0.2;
-      width: 500px;
+      width: 300px;
     }
     h1 {
       font-size: 3em;
