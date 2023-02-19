@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Teste",
+    "subtitle": "testando pra ver se funciona o json",
+    "image" : "../imgs/projects/example.webp",
+    "github": "https://github.com/kelvynkhrystian",
+    "deploy": "https://github.com/kelvynkhrystian"
+  },
+  {
+    "id": 2,
+    "title": "Teste",
+    "subtitle": "testando pra ver se funciona o json",
+    "image" : "../imgs/projects/example.webp",
+    "github": "https://github.com/kelvynkhrystian",
+    "deploy": "https://github.com/kelvynkhrystian"
+  },
+  {
+    "id": 3,
+    "title": "Teste",
+    "subtitle": "testando pra ver se funciona o json",
+    "image" : "../imgs/projects/example.webp",
+    "github": "https://github.com/kelvynkhrystian",
+    "deploy": "https://github.com/kelvynkhrystian"
+  }
+]
