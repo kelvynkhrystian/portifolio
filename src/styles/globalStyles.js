@@ -11,8 +11,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 100vh;
-    height: 100vh;
+    width: 100%;
   }
 
   body {
@@ -24,7 +23,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Patua One', cursive;
     justify-content: flex-start;
     height: 100vh;
-    width: 100vh;
+    width: 100%;
   }
 
 

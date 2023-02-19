@@ -60,10 +60,6 @@ export const HomeStyles = styled.article`
     /* colocar fonte */
     
   }
-
-  div.left-header {
-
-  }
   
   img {
     margin-right: 50px;
@@ -72,9 +68,29 @@ export const HomeStyles = styled.article`
   
 
   @media (max-width:600px) {
+    padding: 50px 50px;
 
     img {
       display: none;
+    }
+    h1 {
+      font-size: 3em;
+    }
+    p {
+      font-size: 2em;
+    }
+    button {
+      margin: 0;
+      margin-top: 10px;
+      margin-right: 5px;
+      height: 40px;
+      width: 150px;
+    }
+
+    div.left-home > div {
+      align-items: left;
+      display: flex;
+      justify-content: flex-start;
     }
   }
 `;

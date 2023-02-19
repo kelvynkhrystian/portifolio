@@ -8,7 +8,7 @@ function Home() {
     <>
       <Header />
       <HomeStyles>
-        <div className='left-header'>
+        <div className='left-home'>
           <h1>KELVYN</h1>
           <h1>KHRYSTIAN</h1>
           <p>Dev Full Stack</p>
@@ -17,7 +17,7 @@ function Home() {
             <button className='rigth'>View Projects</button>
           </div>
         </div>
-        <div className='rigth-header'>
+        <div className='rigth-home'>
           <img src={cubo} alt="cubo-transmorfo" />
         </div>
         
