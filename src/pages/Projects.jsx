@@ -29,6 +29,8 @@ function Projects() {
               title={elem.title}
               subtitle={elem.subtitle}
               image={elem.image}
+              github={elem.github}
+              deploy={elem.deploy}
             />
           );
         })}

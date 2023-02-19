@@ -5,9 +5,10 @@ function CardProjects({ title, subtitle, image }) {
 
   return (
     <section>
+      <img src={image} alt={title} />
       <h1>{title}</h1>
       <h2>{subtitle}</h2>
-      <img src={image} alt={title} />
+      <button>View Project</button>
     </section>
   )
 }
