@@ -1,9 +1,7 @@
 import React from 'react'
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
-function CardProjects() {
-
-  const { title, subtitle, image } = this.props;
+function CardProjects({ title, subtitle, image }) {
 
   return (
     <section>
@@ -14,10 +12,10 @@ function CardProjects() {
   )
 }
 
-CardProjects.propTypes = {
-  title: PropTypes.string,
-  subtitle: PropTypes.string,
-  image: PropTypes.string,
-};
+// CardProjects.propTypes = {
+//   title: PropTypes.string,
+//   subtitle: PropTypes.string,
+//   image: PropTypes.string,
+// };
 
 export default CardProjects
