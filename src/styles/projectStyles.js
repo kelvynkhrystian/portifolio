@@ -39,7 +39,7 @@ export const ProjectCard = styled.article`
   justify-content: space-between;
   padding: 20px;
   margin: 15px;
-  width: 400px;
+  width: 350px;
 
   img {
     border-radius: 5px;
@@ -72,7 +72,7 @@ export const ProjectCard = styled.article`
 
   @media (max-width:600px) {
 
-    align-items: center;
+    width: 75%;
     
   }
 `;
