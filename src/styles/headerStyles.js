@@ -7,9 +7,9 @@ export const HeaderStyles = styled.header`
   background: black;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 8px 0;
-  width: 100vh;
+  width: 100%;
 
   div {
     align-items: center;
@@ -67,6 +67,7 @@ export const HeaderStyles = styled.header`
     bottom:0;
     left: 0;
     position: fixed;
+    width: 100%;
 
     div.left {
       display: none;
