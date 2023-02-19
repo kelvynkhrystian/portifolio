@@ -68,22 +68,29 @@ export const HomeStyles = styled.article`
   
 
   @media (max-width:600px) {
-    padding: 50px 50px;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    padding: 0;
+    
 
     img {
-      display: none;
+      width: 200px;
     }
     h1 {
       font-size: 3em;
+      margin-bottom: 15px;
     }
     p {
       font-size: 2em;
     }
     button {
-      margin: 0;
-      margin-top: 10px;
-      margin-right: 5px;
+      font-size: 1.2em;
       height: 40px;
+      margin: 0;
+      margin-top: 20px;
+      margin-right: 5px;
       width: 150px;
     }
 
@@ -91,6 +98,7 @@ export const HomeStyles = styled.article`
       align-items: left;
       display: flex;
       justify-content: flex-start;
+      flex-wrap: wrap;
     }
   }
 `;
