@@ -75,6 +75,7 @@ export const HomeStyles = styled.article`
   @media (max-width:600px) {
     align-items: center;
     flex-direction: column;
+    height: 100%;
     justify-content: space-evenly;
     padding: 0;
     
