@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import fundo from '../imgs/background/fundo-completo-pc.png'
  
 const GlobalStyle = createGlobalStyle`
   * {
@@ -18,12 +19,13 @@ const GlobalStyle = createGlobalStyle`
   body {
     align-items: center;
     color: white;
-    background-color: gray;
+    background-image: url(${fundo});
+    background-size: 101% 130%;
     display: flex;
     flex-direction: column;
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Patua One', cursive;
     justify-content: flex-start;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
   }
   

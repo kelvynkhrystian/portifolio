@@ -11,8 +11,8 @@ function Header() {
     <HeaderStyles>
 
       <div>
-        <h3>KELVYN K</h3>
-        <p>Dev Full Stack</p>
+        <h3>KELVYN K.</h3>
+        <h4>Dev Full Stack</h4>
       </div>
 
       <section>

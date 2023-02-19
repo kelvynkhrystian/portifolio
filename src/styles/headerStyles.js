@@ -7,7 +7,6 @@ export const HeaderStyles = styled.header`
   background: black;
   color: white;
   display: flex;
-  height: 10vh;
   justify-content: space-between;
   width: 100%;
 
@@ -16,14 +15,23 @@ export const HeaderStyles = styled.header`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px;
+    padding: 15px;
+    text-align: center;
   }
 
   section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 20px;
+
+    div {
+      filter: brightness(70%);
+      padding: 0px 20px;
+    }
+    
+    div:hover {
+      filter: brightness(100%);
+    }
   }
 
   img {
@@ -38,7 +46,11 @@ export const HeaderStyles = styled.header`
   }
 
   p {
-    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  h3 {
+    font-size: 1.3em;
   }
 
   @media (min-width:600px) {
