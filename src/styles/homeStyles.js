@@ -7,16 +7,19 @@ export const HomeStyles = styled.article`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  font-family: 'Rammetto One', cursive;
   justify-content: space-between;
   padding: 100px 50px;
   padding-bottom: 0;
   width: 100%;
 
   h1 {
-    font-size: 5em;
+    font-size: 4em;
+    line-height: 1.2;
   }
 
   p {
+    font-family: 'Major Mono Display', monospace;
     font-size: 3em;
   }
 
@@ -88,7 +91,7 @@ export const HomeStyles = styled.article`
     }
 
     h1 {
-      font-size: 3em;
+      font-size: 2.5em;
     }
 
     p {
@@ -131,6 +134,7 @@ export const HomeStyles = styled.article`
 
     .left-home {
       z-index: 2;
+      width: 80%;
     }
   }
 `;

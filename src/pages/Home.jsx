@@ -17,7 +17,7 @@ function Home() {
           </h1>
           <h1>KHRYSTIAN</h1>
           <p>
-            Dev Full Stack
+            Dev-FullStack
           </p>
           <div>
             {/* <button className='left'>Currículo</button> */}
