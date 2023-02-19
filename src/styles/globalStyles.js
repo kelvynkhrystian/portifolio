@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 100%;
+    width: 100vh;
     height: 100vh;
   }
 
@@ -23,8 +23,8 @@ const GlobalStyle = createGlobalStyle`
     flex-direction: column;
     font-family: 'Patua One', cursive;
     justify-content: flex-start;
-    /* height: 100vh; */
-    width: 100%;
+    height: 100vh;
+    width: 100vh;
   }
 
 

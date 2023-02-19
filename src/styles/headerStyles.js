@@ -7,9 +7,9 @@ export const HeaderStyles = styled.header`
   background: black;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 8px 0;
-  width: 100%;
+  width: 100vh;
 
   div {
     align-items: center;
@@ -62,7 +62,24 @@ export const HeaderStyles = styled.header`
     font-size: 1.3em;
   }
 
-  @media (min-width:600px) {
-    
+  @media (max-width:600px) {
+
+    bottom:0;
+    left: 0;
+    position: fixed;
+
+    div.left {
+      display: none;
+    }
+
+    section {
+      justify-content: space-around;
+      margin: 0;
+      width: 100%;
+
+      div {
+        margin: 0;
+      }
+    }
   }
 `;
