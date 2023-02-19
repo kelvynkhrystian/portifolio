@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 function CardProjects() {
 
@@ -12,5 +13,11 @@ function CardProjects() {
     </section>
   )
 }
+
+CardProjects.propTypes = {
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+  image: PropTypes.string,
+};
 
 export default CardProjects

@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../components/Header'
-// import CardProjects from '../components/CardProjects'
-// import projects from '../database/projects.json'
 
 function Projects() {
+
+  const [projects, setProjects] = useState([])
+
   return (
     <>
       <Header />
@@ -14,16 +15,7 @@ function Projects() {
         </label>
       </div>
       <article>
-        {/* {projects.map((elem) => {
-          return (
-            <CardProjects
-              key={elem.id}
-              title={elem.title}
-              subtitle={elem.subtitle}
-              image={elem.image}
-            />
-          );
-        })} */}
+
       </article>
     </>
   )
