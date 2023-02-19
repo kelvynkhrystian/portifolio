@@ -75,9 +75,9 @@ export const HomeStyles = styled.article`
   @media (max-width:600px) {
     align-items: center;
     flex-direction: column;
+    height: 92%;
     justify-content: space-evenly;
     padding: 0;
-    
 
     img {
       opacity: 0.2;
