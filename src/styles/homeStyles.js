@@ -82,7 +82,7 @@ export const HomeStyles = styled.article`
 
     img {
       opacity: 0.2;
-      width: 80%;
+      width: 90%;
       margin-right: 0;
     }
     h1 {
