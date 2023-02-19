@@ -1,4 +1,5 @@
 import React, { useState, useEffect} from 'react'
+import { ProjectBox } from '../styles/projectStyles'
 import Header from '../components/Header'
 import CardProjects from '../components/CardProjects'
 import getProjects from '../utils/getProjects'
@@ -21,7 +22,7 @@ function Projects() {
           <input type="text" placeholder='Busque um projeto ...' />
         </label>
       </div>
-      <article>
+      <ProjectBox>
         {projects.map((elem) => {
           return (
             <CardProjects
@@ -34,7 +35,7 @@ function Projects() {
             />
           );
         })}
-      </article>
+      </ProjectBox>
     </>
   )
 }

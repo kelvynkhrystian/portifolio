@@ -1,15 +1,17 @@
 import React from 'react'
+import { ProjectCard } from '../styles/projectStyles'
 // import PropTypes from 'prop-types';
 
 function CardProjects({ title, subtitle, image }) {
 
   return (
-    <section>
+    <ProjectCard>
       <img src={image} alt={title} />
       <h1>{title}</h1>
       <h2>{subtitle}</h2>
-      <button>View Project</button>
-    </section>
+      <button>View Projects</button>
+      
+    </ProjectCard>
   )
 }
 
