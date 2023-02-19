@@ -71,7 +71,10 @@ export const HomeStyles = styled.article`
   }
   
 
-  @media (min-width:600px) {
-    
+  @media (max-width:600px) {
+
+    img {
+      display: none;
+    }
   }
 `;
