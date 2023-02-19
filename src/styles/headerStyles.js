@@ -62,6 +62,7 @@ export const HeaderStyles = styled.header`
     font-size: 1.3em;
   }
 
+  /* responsividade mobile */
   @media (max-width:600px) {
 
     bottom:0;

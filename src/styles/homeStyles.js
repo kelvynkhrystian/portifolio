@@ -6,6 +6,7 @@ export const HomeStyles = styled.article`
   color: white;
   display: flex;
   flex-direction: row;
+  height: 100vh;
   justify-content: space-between;
   padding: 100px 50px;
   padding-bottom: 0;
