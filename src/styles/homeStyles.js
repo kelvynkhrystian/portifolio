@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HomeStyles = styled.article`
 
-  align-items: flex-start;
+  align-items: center;
   color: white;
   display: flex;
   flex-direction: row;
