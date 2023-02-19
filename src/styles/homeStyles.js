@@ -65,7 +65,12 @@ export const HomeStyles = styled.article`
     margin-right: 50px;
     width: 400px;
   }
-  
+
+  h1 > img {
+    margin: 0;
+    margin-left: 25px;
+    width: 50px;
+  }
 
   @media (max-width:600px) {
     align-items: center;
@@ -80,7 +85,6 @@ export const HomeStyles = styled.article`
     }
     h1 {
       font-size: 3em;
-      margin-bottom: 15px;
     }
     p {
       font-size: 2em;
@@ -100,5 +104,11 @@ export const HomeStyles = styled.article`
       justify-content: flex-start;
       flex-wrap: wrap;
     }
+
+    h1 > img {
+    margin: 0;
+    margin-left: 25px;
+    width: 40px;
+  }
   }
 `;
