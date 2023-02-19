@@ -81,7 +81,8 @@ export const HomeStyles = styled.article`
     
 
     img {
-      width: 200px;
+      opacity: 0.2;
+      width: 500px;
     }
     h1 {
       font-size: 3em;
@@ -106,9 +107,21 @@ export const HomeStyles = styled.article`
     }
 
     h1 > img {
-    margin: 0;
-    margin-left: 25px;
-    width: 40px;
-  }
+      margin: 0;
+      margin-left: 25px;
+      opacity: 1;
+      width: 40px;
+    }
+
+    .rigth-home {
+      position: absolute;
+      top: 20%;
+      left: 0;
+      z-index: 1;
+    }
+
+    .left-home {
+      z-index: 2;
+    }
   }
 `;
