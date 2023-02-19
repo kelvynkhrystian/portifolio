@@ -8,6 +8,7 @@ export const HomeStyles = styled.article`
   flex-direction: row;
   justify-content: space-between;
   padding: 100px 50px;
+  padding-bottom: 0;
   width: 100%;
 
   h1 {
@@ -66,7 +67,7 @@ export const HomeStyles = styled.article`
   
   img {
     margin-right: 50px;
-    width: 350px;
+    width: 400px;
   }
   
 
