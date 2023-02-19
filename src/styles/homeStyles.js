@@ -14,7 +14,7 @@ export const HomeStyles = styled.article`
   width: 100%;
 
   h1 {
-    font-size: 4em;
+    font-size: 5em;
     line-height: 1.2;
   }
 
@@ -72,8 +72,8 @@ export const HomeStyles = styled.article`
 
   h1 > img {
     margin: 0;
-    margin-left: 25px;
-    width: 50px;
+    margin-left: 60px;
+    width: 70px;
   }
 
   @media (max-width:600px) {
