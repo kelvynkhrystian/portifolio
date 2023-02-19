@@ -1,15 +1,20 @@
 import React from 'react'
 import Header from '../components/Header'
-import CardProjects from '../components/CardProjects'
-import projects from '../database/projects.json'
+// import CardProjects from '../components/CardProjects'
+// import projects from '../database/projects.json'
 
 function Projects() {
   return (
     <>
       <Header />
-      <div>Projects</div>
+      <div>
+        <h1>Projects</h1>
+        <label htmlFor="search">
+          <input type="text" placeholder='Busque um projeto ...' />
+        </label>
+      </div>
       <article>
-        {projects.map((elem) => {
+        {/* {projects.map((elem) => {
           return (
             <CardProjects
               key={elem.id}
@@ -18,7 +23,7 @@ function Projects() {
               image={elem.image}
             />
           );
-        })}
+        })} */}
       </article>
     </>
   )
