@@ -35,21 +35,23 @@ export const ProjectCard = styled.article`
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 500px;
   justify-content: space-between;
-  padding: 5px;
+  padding: 20px;
   margin: 15px;
-  width: 300px;
+  width: 400px;
 
   img {
     border-radius: 5px;
-    width: 290px;
+    width: 365px;
   }
 
   h1 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 2em;
+    font-size: 4em;
     margin: 5px 0;
+    margin-bottom: 20px;
+    /* line-height: 1.5; */
   }
 
   h2 {
@@ -58,7 +60,13 @@ export const ProjectCard = styled.article`
   }
 
   button {
-    align-self: flex-end;
+    background-color: #525252;
+    border-radius: 10px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 2em;
+    height: 75px;
+    width: 100%;
   }
   
 
