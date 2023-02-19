@@ -116,10 +116,15 @@ export const HomeStyles = styled.article`
 
     .rigth-home {
       align-items: center;
+      display: flex;
+      justify-content: center;
       left: 0;
       position: absolute;
       top: 20%;
+      width: 100%;
       z-index: 1;
+
+
     }
 
     .left-home {
