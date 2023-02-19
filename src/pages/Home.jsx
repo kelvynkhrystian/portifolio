@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Header from '../components/Header'
 import { HomeStyles } from '../styles/homeStyles'
 import cubo from '../imgs/background/cubo.gif'
@@ -20,7 +21,9 @@ function Home() {
           </p>
           <div>
             <button className='left'>Currículo</button>
-            <button className='rigth'>View Projects</button>
+            <Link to="/projects">
+              <button className='rigth'>View Projects</button>
+            </Link>
           </div>
         </div>
         <div className='rigth-home'>
