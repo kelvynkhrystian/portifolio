@@ -20,7 +20,7 @@ function Home() {
             Dev Full Stack
           </p>
           <div>
-            <button className='left'>Currículo</button>
+            {/* <button className='left'>Currículo</button> */}
             <Link to="/projects">
               <button className='rigth'>View Projects</button>
             </Link>
