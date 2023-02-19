@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Teste",
     "subtitle": "testando pra ver se funciona o json",
-    "image" : "../imgs/projects/example.webp",
+    "image" : "https://raw.githubusercontent.com/kelvynkhrystian/portifolio/main/src/imgs/projects/example.webp",
     "github": "https://github.com/kelvynkhrystian",
     "deploy": "https://github.com/kelvynkhrystian"
   },
