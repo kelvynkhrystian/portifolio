@@ -154,6 +154,7 @@ export const ProjectCard = styled.article`
   }
 
   h2 {
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     padding: 0 20px;
