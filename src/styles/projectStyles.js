@@ -17,8 +17,8 @@ export const ProjectHeader = styled.article`
     background-color: #1f1f1f;
     border-radius: 50px;
     display: flex;
-    margin-top: 10px;
-    width: 350px;
+    justify-content: space-between;
+    width: 300px;
   }
 
   input {
@@ -27,14 +27,25 @@ export const ProjectHeader = styled.article`
     border: none;
     color: white;
     font-size: 0.6em;
-    padding: 0 20px;
+    padding: 5px 20px;
+    padding-right: 0;
     outline: none;
   }
 
-
+  img {
+    height: 20px;
+    margin: 5px;
+    width: 20px;
+  }
 
   h1 {
     
+  }
+
+  div {
+    display: flex;
+    margin-top: 10px;
+    /* justify-content: space-between; */
   }
   
 

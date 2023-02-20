@@ -18,12 +18,14 @@ function Projects() {
       <Header />
       <ProjectHeader>
         <h1>Projects</h1>
-        <label htmlFor="search">
-          <input type="text" placeholder='Busque um projeto ...' />
-          <img src="lupa" alt="lupa" />
-          <img src="lupa" alt="filtro" />
-        </label>
-      </ProjectHeader>
+        <div>
+          <label htmlFor="search">
+            <input type="text" placeholder='Busque um projeto ...' />
+            <img src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/lupa.png?raw=true" alt="lupa" />
+          </label>
+          <img src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/filter.png?raw=true" alt="filtro" />
+        </div>
+        </ProjectHeader>
       <ProjectBox>
         {projects.map((elem) => {
           return (
