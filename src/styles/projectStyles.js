@@ -2,7 +2,40 @@ import styled from "styled-components";
 
 export const ProjectHeader = styled.article`
 
-  align-items: center;
+  align-items: flex-start;
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 2em;
+  padding: 25px 50px;
+  width: 100%;
+
+  label {
+    align-items: center;
+    color: #383838;
+    background-color: #1f1f1f;
+    border-radius: 50px;
+    display: flex;
+    margin-top: 10px;
+    width: 350px;
+  }
+
+  input {
+    background-color: transparent;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 0.6em;
+    padding: 0 20px;
+    outline: none;
+  }
+
+
+
+  h1 {
+    
+  }
   
 
   @media (max-width:600px) {

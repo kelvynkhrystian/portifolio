@@ -1,5 +1,5 @@
 import React, { useState, useEffect} from 'react'
-import { ProjectBox } from '../styles/projectStyles'
+import { ProjectBox, ProjectHeader } from '../styles/projectStyles'
 import Header from '../components/Header'
 import CardProjects from '../components/CardProjects'
 import getProjects from '../utils/getProjects'
@@ -16,12 +16,14 @@ function Projects() {
   return (
     <>
       <Header />
-      <div>
+      <ProjectHeader>
         <h1>Projects</h1>
         <label htmlFor="search">
           <input type="text" placeholder='Busque um projeto ...' />
+          <img src="lupa" alt="lupa" />
+          <img src="lupa" alt="filtro" />
         </label>
-      </div>
+      </ProjectHeader>
       <ProjectBox>
         {projects.map((elem) => {
           return (
