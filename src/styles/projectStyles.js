@@ -69,7 +69,6 @@ export const ProjectHeader = styled.article`
 export const ProjectBox = styled.article`
 
   align-items: center;
-  /* background-color: red; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -130,8 +129,8 @@ export const ProjectCard = styled.article`
   }
 
   h1 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
     margin: 5px 0;
     margin-bottom: 20px;
     /* line-height: 1.5; */
