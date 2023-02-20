@@ -77,7 +77,7 @@ export const ProjectBox = styled.article`
 
   @media (max-width:600px) {
 
-    align-items: center;
+    padding-bottom: 100px;
     
   }
 `;
@@ -160,11 +160,7 @@ export const ProjectCard = styled.article`
 
   @media (max-width:600px) {
 
-    width: 75%;
-
-    img {
-        width: 310px;
-    }
+    width: 70%;
     
   }
 `;
