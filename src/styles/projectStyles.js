@@ -136,6 +136,7 @@ export const ProjectCard = styled.article`
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
     margin-top: 5px;
+    text-align: center;
   }
 
   h2 {
