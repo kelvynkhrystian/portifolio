@@ -126,7 +126,7 @@ export const ProjectCard = styled.article`
     width: 75%;
 
     img {
-        width: 350px;
+        width: 310px;
     }
     
   }
