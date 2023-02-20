@@ -46,7 +46,7 @@ export const ProjectHeader = styled.article`
     align-items: center;
     display: flex;
     margin-top: 10px;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 100%;
   }
   
