@@ -35,6 +35,7 @@ export const ProjectHeader = styled.article`
     width: 20px;
     margin-right: 10px;
     margin-left: 10px;
+    
   }
 
   h1 {
@@ -73,6 +74,35 @@ export const ProjectBox = styled.article`
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
+
+  @media (max-width:600px) {
+
+    align-items: center;
+    
+  }
+`;
+
+export const ProjectFilter = styled.section`
+
+  align-items: center;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 0;
+  width: 100%;
+  margin-bottom: 25px;
+
+  select {
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    color: white;
+    filter: brightness(70%);
+    height: 40px;
+    padding-left: 10px;
+    width: 80%;
+    outline: none;
+  }
 
   @media (max-width:600px) {
 
