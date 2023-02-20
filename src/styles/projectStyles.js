@@ -87,19 +87,20 @@ export const ProjectFilter = styled.section`
   background-color: #1f1f1f;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 10px 0;
+  justify-content: flex-start;
+  padding: 10px 50px;
   width: 100%;
   margin-bottom: 25px;
 
   select {
+    align-items: center;
     border-radius: 5px;
     background-color: #1f1f1f;
     color: white;
     filter: brightness(70%);
     height: 40px;
     padding-left: 10px;
-    width: 80%;
+    width: 25%;
     outline: none;
   }
 
