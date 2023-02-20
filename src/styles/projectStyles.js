@@ -119,26 +119,23 @@ export const ProjectCard = styled.article`
 
   align-items: center;
   background-color: #363636;
-  border-radius: 10px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 350px;
   justify-content: space-between;
-  padding: 20px;
-  margin: 15px;
-  width: 350px;
+  margin: 10px;
+  width: 300px;
 
   img {
-    border-radius: 5px;
+    border-radius: 15px;
+    padding: 10px;
     width: 300px;
   }
 
   h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
-    margin: 5px 0;
-    margin-bottom: 20px;
-    /* line-height: 1.5; */
   }
 
   h2 {
@@ -148,12 +145,16 @@ export const ProjectCard = styled.article`
 
   button {
     background-color: #525252;
-    border-radius: 10px;
-    color: #000000;
+    border: none;
+    color: white;
     cursor: pointer;
     font-size: 2em;
     height: 75px;
     width: 100%;
+  }
+
+  button:active {
+    transform: scale(0.95);
   }
   
 
