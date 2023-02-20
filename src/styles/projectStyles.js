@@ -108,7 +108,9 @@ export const ProjectFilter = styled.section`
 
   @media (max-width:600px) {
 
-    width: 100%;
+    select {
+      width: 100%;
+    }
     
   }
 `;
