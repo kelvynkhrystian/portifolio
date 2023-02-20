@@ -18,7 +18,7 @@ export const ProjectHeader = styled.article`
     border-radius: 50px;
     display: flex;
     justify-content: space-between;
-    width: 300px;
+    width: 320px;
   }
 
   input {
@@ -27,15 +27,14 @@ export const ProjectHeader = styled.article`
     border: none;
     color: white;
     font-size: 0.6em;
-    padding: 5px 20px;
-    padding-right: 0;
+    padding: 7px 15px;
     outline: none;
   }
 
   img {
     height: 20px;
-    margin: 5px;
     width: 20px;
+    margin-right: 10px;
   }
 
   h1 {
@@ -45,7 +44,8 @@ export const ProjectHeader = styled.article`
   div {
     display: flex;
     margin-top: 10px;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    width: 100%;
   }
   
 
@@ -68,6 +68,11 @@ export const ProjectBox = styled.article`
   @media (max-width:600px) {
 
     align-items: center;
+
+    label {
+      width: 300px;
+      justify-content: space-between;
+    }
     
   }
 `;
