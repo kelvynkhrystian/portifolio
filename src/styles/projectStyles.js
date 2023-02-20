@@ -35,6 +35,7 @@ export const ProjectHeader = styled.article`
     height: 20px;
     width: 20px;
     margin-right: 10px;
+    margin-left: 10px;
   }
 
   h1 {
@@ -42,6 +43,7 @@ export const ProjectHeader = styled.article`
   }
 
   div {
+    align-items: center;
     display: flex;
     margin-top: 10px;
     justify-content: space-between;
