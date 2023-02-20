@@ -19,25 +19,25 @@ function Header() {
         <div>
           <Link to="/">
             <img src={homeIcon} alt="icon-test" />
-            <p>Home</p>
+            <p>Inicio</p>
           </Link>
         </div>
         <div>
           <Link to="/projects">
             <img src={projectsIcon} alt="icon-test" />
-            <p>Projects</p>
+            <p>Projetos</p>
           </Link>
         </div>
         <div>
           <Link to="/skills">
             <img src={skillsIcon} alt="icon-test" />
-            <p>Skills</p>
+            <p>Habilidades</p>
           </Link>
         </div>
         <div>
           <Link to="/profile">
             <img src={profileIcon} alt="icon-test" />
-            <p>Profile</p>
+            <p>Perfil</p>
           </Link>
         </div>
       </section>

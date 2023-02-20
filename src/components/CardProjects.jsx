@@ -9,8 +9,7 @@ function CardProjects({ title, subtitle, image }) {
       <img src={image} alt={title} />
       <h1>{title}</h1>
       <h2>{subtitle}</h2>
-      <button>View Projects</button>
-      
+      <button>Ver Projeto</button>
     </ProjectCard>
   )
 }

@@ -22,7 +22,7 @@ function Home() {
           <div>
             {/* <button className='left'>Currículo</button> */}
             <Link to="/projects">
-              <button className='rigth'>View Projects</button>
+              <button className='rigth'>Ver Projetos ⇾</button>
             </Link>
           </div>
         </div>

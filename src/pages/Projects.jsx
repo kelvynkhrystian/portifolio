@@ -17,7 +17,7 @@ function Projects() {
     <>
       <Header />
       <ProjectHeader>
-        <h1>Projects</h1>
+        <h1>Projetos</h1>
         <div>
           <label htmlFor="search">
             <input type="text" placeholder='Busque um projeto ...' />
