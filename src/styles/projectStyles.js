@@ -87,12 +87,12 @@ export const ProjectCard = styled.article`
 
   img {
     border-radius: 5px;
-    width: 365px;
+    width: 300px;
   }
 
   h1 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 4em;
+    font-size: 3em;
     margin: 5px 0;
     margin-bottom: 20px;
     /* line-height: 1.5; */
@@ -117,6 +117,10 @@ export const ProjectCard = styled.article`
   @media (max-width:600px) {
 
     width: 75%;
+
+    img {
+        width: 350px;
+    }
     
   }
 `;
