@@ -122,7 +122,7 @@ export const ProjectCard = styled.article`
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 375px;
   justify-content: space-between;
   margin: 10px;
   width: 300px;
@@ -145,9 +145,9 @@ export const ProjectCard = styled.article`
   }
 
   button {
-    background-color: #525252;
-    border: none;
-    border-radius: 15px;
+    background-color: transparent;
+    border: 0 0 1px 2px solid #222222;
+    border-radius: 0 0 15px 15px;
     color: white;
     cursor: pointer;
     font-size: 2em;
@@ -162,7 +162,11 @@ export const ProjectCard = styled.article`
 
   @media (max-width:600px) {
 
-    width: 70%;
+    width: 80%;
+
+    img {
+      width: 100%;
+    }
     
   }
 `;
