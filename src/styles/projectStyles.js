@@ -31,6 +31,7 @@ export const ProjectHeader = styled.article`
   }
 
   img {
+    cursor: pointer;
     height: 20px;
     width: 20px;
     margin-right: 10px;
@@ -97,6 +98,7 @@ export const ProjectFilter = styled.section`
     border-radius: 5px;
     background-color: #1f1f1f;
     color: white;
+    cursor: pointer;
     filter: brightness(70%);
     height: 40px;
     padding-left: 10px;
@@ -106,7 +108,7 @@ export const ProjectFilter = styled.section`
 
   @media (max-width:600px) {
 
-    align-items: center;
+    width: 100%;
     
   }
 `;
