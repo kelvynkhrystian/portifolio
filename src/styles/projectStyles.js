@@ -18,7 +18,6 @@ export const ProjectHeader = styled.article`
     border-radius: 50px;
     display: flex;
     justify-content: space-between;
-    width: 320px;
   }
 
   input {
@@ -53,7 +52,15 @@ export const ProjectHeader = styled.article`
 
   @media (max-width:600px) {
 
-    align-items: center;
+    padding: 10px 30px;
+
+    div {
+      justify-content: center;
+    }
+
+    label {
+      justify-content: space-between;
+    }
     
   }
 `;
@@ -70,11 +77,6 @@ export const ProjectBox = styled.article`
   @media (max-width:600px) {
 
     align-items: center;
-
-    label {
-      width: 300px;
-      justify-content: space-between;
-    }
     
   }
 `;
