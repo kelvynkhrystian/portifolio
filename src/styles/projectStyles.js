@@ -119,7 +119,7 @@ export const ProjectCard = styled.article`
 
   align-items: center;
   background-color: #363636;
-  border-radius: 5px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   height: 350px;
@@ -129,23 +129,25 @@ export const ProjectCard = styled.article`
 
   img {
     border-radius: 15px;
-    padding: 10px;
     width: 300px;
   }
 
   h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
+    margin-top: 5px;
   }
 
   h2 {
-    font-family: 'Patua One', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1em;
+    padding: 0 20px;
   }
 
   button {
     background-color: #525252;
     border: none;
+    border-radius: 15px;
     color: white;
     cursor: pointer;
     font-size: 2em;
