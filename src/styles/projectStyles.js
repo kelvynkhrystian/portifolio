@@ -85,13 +85,14 @@ export const ProjectBox = styled.article`
 export const ProjectFilter = styled.section`
 
   align-items: center;
-  background-color: #1f1f1f;
+  /* background-color: #1f1f1f; */
+  background-color: transparent;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   padding: 10px 50px;
   width: 100%;
-  margin-bottom: 25px;
+  margin: 20px 5px;
 
   select {
     align-items: center;
@@ -102,14 +103,27 @@ export const ProjectFilter = styled.section`
     filter: brightness(70%);
     height: 40px;
     padding-left: 10px;
-    width: 25%;
     outline: none;
+    width: 25%;
+    margin-right: 10px;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .flex {
+    display: flex;
   }
 
   @media (max-width:600px) {
 
+    padding: 5px 5px;
+    justify-content: space-around;
+
     select {
-      width: 100%;
+      margin-right: 0px;
+      width: 42%;
     }
     
   }

@@ -7,6 +7,11 @@ import getProjects from '../utils/getProjects'
 function Projects() {
 
   const [projects, setProjects] = useState([])
+  const [showFilter, setShowFilter] = useState('none')
+  
+  const filter = state => {
+    state === 'none' ? setShowFilter('flex') : setShowFilter('none')
+  }
 
   useEffect(() => {
     const projects = getProjects();
@@ -23,15 +28,19 @@ function Projects() {
             <input type="text" placeholder='Busque um projeto ...' />
             <img src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/lupa.png?raw=true" alt="lupa" />
           </label>
-          <img src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/filter.png?raw=true" alt="filtro" />
+          <img onClick={() => filter(showFilter)} src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/filter.png?raw=true" alt="filtro" />
         </div>
       </ProjectHeader>
-      <ProjectFilter>
-        <select id="filter" name="filter">
+      <ProjectFilter >
+        <select className={`${showFilter}`}>
           <option value="all">Todas as categorias</option>
           <option value="nojs">No JS</option>
           <option value="js">JS Vanilla</option>
           <option value="react">React JS</option>
+        </select>
+        <select className={`${showFilter}`}>
+          <option value="all">Mais Recente</option>
+          <option value="nojs">Mais Antigo</option>
         </select>
       </ProjectFilter>
       <ProjectBox>
