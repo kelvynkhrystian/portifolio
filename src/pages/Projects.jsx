@@ -9,22 +9,48 @@ function Projects() {
   const [projects, setProjects] = useState([]);
   const [showFilter, setShowFilter] = useState('none');
   const [busca, setBusca] = useState('');
+  const [category, setCategory] = useState('');
+  const [date, setDate] = useState('recente');
   
   const showFilterBox = display => {
     display === 'none' ? setShowFilter('flex') : setShowFilter('none');
   };
 
-  const handleCategories = (ev) => ev.target.value
-  const handleDate = (ev) => ev.target.value
+  const filter = (projects) => {
+
+    // filtro select por categoria
+    const filter1 = projects.filter((search) => search.category.includes(category));
+    // filtro select recente ou antigo
+    const filter2 = date === 'antigo'? filter1: filter1.reverse();
+    // filtro de busca escrita
+    const lowerBusca = busca.toLowerCase()
+    const filter3 = filter2.filter((search) => search.title.toLowerCase().includes(lowerBusca));
+    // retorno filnal
+    return filter3;
+  }
+
+  const handleCategories = (ev) => {
+    const categoryName = (ev.target.value)
+    console.log(categoryName);
+    setCategory(date)
+    return categoryName;
+  };
+
+  const handleDate = (ev) => {
+    const dateName = (ev.target.value)
+    // console.log(dateName);
+    setDate(dateName)
+    return dateName;
+  };
 
   useEffect(() => {
 
-    const category = handleCategories()
-    const date = handleDate()
-    const projects = getProjects(busca,category,date);
-
-    setProjects(projects)
-  }, [busca]);
+    const projects = getProjects();
+    const filtrado = filter(projects);
+    // const projects = getProjects(busca);
+    setProjects(filtrado)
+    // console.log(date);
+  }, [busca, category, date]);
 
   return (
     <>
@@ -53,13 +79,13 @@ function Projects() {
         </div>
       </ProjectHeader>
       <ProjectFilter >
-        <select className={`${showFilter}`} onChange={handleCategories}>
+        <select className={`${showFilter}`} onChange={handleCategories} value={category}>
           <option value="all">Todas as categorias</option>
           <option value="react">React JS</option>
           <option value="js">JS Vanilla</option>
           <option value="nojs">Sem Javascript</option>
         </select>
-        <select className={`${showFilter}`} onChange={handleDate}>
+        <select className={`${showFilter}`} onChange={handleDate} value={date}>
           <option value="recente">Mais Recente</option>
           <option value="antigo">Mais Antigo</option>
         </select>

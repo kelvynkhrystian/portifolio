@@ -1,21 +1,17 @@
 const filter = (projects, busca, category, date) => {
 
-    // filtro de busca escrita
-    const lowerBusca = busca.toLowerCase()
-    const filter1 = projects.filter((search) => search.title.toLowerCase().includes(lowerBusca));
-
     // filtro select por categoria
-    const lowerCategory = category.toLowerCase()
-    const filter2 = filter1.filter((search) => search.category.includes(lowerCategory));
+    const filter1 = projects.filter((search) => search.category.includes(category));
 
     // filtro select recente ou antigo
 
-    const filter3 = date === 'antigo'? filter2 : filter2.reverse()  ;
+    const filter2 = date === 'antigo'? filter1: filter1.reverse();
 
-    // retorno pós 3 filtros
-    const filtered = filter3
-    return filtered;
-    // return projects;
+    // filtro de busca escrita
+    const lowerBusca = busca.toLowerCase()
+    const filter3 = filter2.filter((search) => search.title.toLowerCase().includes(lowerBusca));
+
+    return filter3;
 };
 
 export default filter

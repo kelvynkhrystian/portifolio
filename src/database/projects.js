@@ -5,7 +5,8 @@ const projects = [
     subtitle: "primeiro contato com o mundo web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/port1.png?raw=true",
     github: "https://github.com/kelvynkhrystian",
-    deploy: "https://github.com/kelvynkhrystian"
+    deploy: "https://github.com/kelvynkhrystian",
+    category: 'nojs',
   },
   {
     id: 2,
@@ -13,7 +14,8 @@ const projects = [
     subtitle: "Um forms html sobre pets",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/forms1.png?raw=true",
     github: "https://github.com/kelvynkhrystian/formulario",
-    deploy: "https://formulario-nine-orcin.vercel.app/"
+    deploy: "https://formulario-nine-orcin.vercel.app/",
+    category: 'nojs',
   },
   {
     id: 3,
@@ -21,7 +23,8 @@ const projects = [
     subtitle: "Uma página de login - HTML e CSS",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/login-page.png?raw=true",
     github: "https://github.com/kelvynkhrystian/login-page",
-    deploy: "https://login-page-nine-mocha.vercel.app/"
+    deploy: "https://login-page-nine-mocha.vercel.app/",
+    category: 'nojs',
   },
   {
     id: 4,
@@ -29,7 +32,8 @@ const projects = [
     subtitle: "uma calculadora js com tema one piece",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/calculadora.png?raw=true",
     github: "https://github.com/kelvynkhrystian/calculadora",
-    deploy: "https://calculadora-omega-two.vercel.app/"
+    deploy: "https://calculadora-omega-two.vercel.app/",
+    category: 'js',
   },
   {
     id: 5,
@@ -37,7 +41,8 @@ const projects = [
     subtitle: "Um forms JS com melhorias e validações",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/forms2.png?raw=true",
     github: "https://github.com/kelvynkhrystian/formsJS",
-    deploy: "https://forms-js.vercel.app/"
+    deploy: "https://forms-js.vercel.app/",
+    category: 'js',
   },
   {
     id: 6,
@@ -45,7 +50,8 @@ const projects = [
     subtitle: "Lista de tarefas funcional",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/to-do-list.png?raw=true",
     github: "https://github.com/kelvynkhrystian/todolist",
-    deploy: "https://todolist-eight-xi.vercel.app/index2.html"
+    deploy: "https://todolist-eight-xi.vercel.app/index2.html",
+    category: 'js',
   },
   {
     id: 7,
@@ -53,7 +59,8 @@ const projects = [
     subtitle: "Mobile First, JS e Responsividade",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/port2.png?raw=true",
     github: "https://github.com/kelvynkhrystian/kelvynkhrystian.github.io",
-    deploy: "https://kelvynkhrystian.github.io/"
+    deploy: "https://kelvynkhrystian.github.io/",
+    category: 'js',
   },
   {
     id: 8,
@@ -61,7 +68,8 @@ const projects = [
     subtitle: "Simula cotação de cambio de uma API",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/cambio.png?raw=true",
     github: "https://github.com/kelvynkhrystian/casaDeCambio",
-    deploy: "https://casa-de-cambio-nine.vercel.app/"
+    deploy: "https://casa-de-cambio-nine.vercel.app/",
+    category: 'js',
   },
   {
     id: 9,
@@ -69,7 +77,8 @@ const projects = [
     subtitle: "carrinho de compras com ES6",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/shopping.png?raw=true",
     github: "https://github.com/kelvynkhrystian/shoppingCart",
-    deploy: "https://shopping-zeta-jade.vercel.app/"
+    deploy: "https://shopping-zeta-jade.vercel.app/",
+    category: 'js',
   },
   {
     id: 10,
@@ -77,7 +86,8 @@ const projects = [
     subtitle: "gerador de senhas em React",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/lhama.gif?raw=true",
     github: "https://github.com/kelvynkhrystian/generate-password",
-    deploy: "https://generate-password-six.vercel.app/"
+    deploy: "https://generate-password-six.vercel.app/",
+    category: 'react',
   }
 
 ];
