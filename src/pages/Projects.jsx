@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect} from 'react'
 import { ProjectBox, ProjectHeader, ProjectFilter} from '../styles/projectStyles'
 import Header from '../components/Header'
@@ -9,7 +10,7 @@ function Projects() {
   const [projects, setProjects] = useState([]);
   const [showFilter, setShowFilter] = useState('none');
   const [busca, setBusca] = useState('');
-  const [category, setCategory] = useState('');
+  const [category, setCategory] = useState('all');
   const [date, setDate] = useState('recente');
   
   const showFilterBox = display => {
@@ -19,37 +20,31 @@ function Projects() {
   const filter = (projects) => {
 
     // filtro select por categoria
-    const filter1 = projects.filter((search) => search.category.includes(category));
-    // filtro select recente ou antigo
-    const filter2 = date === 'antigo'? filter1: filter1.reverse();
+    let filterCategory = projects.filter((search) => search.category.includes(category));
+    if (category === 'all') filterCategory = projects
+
     // filtro de busca escrita
     const lowerBusca = busca.toLowerCase()
-    const filter3 = filter2.filter((search) => search.title.toLowerCase().includes(lowerBusca));
+    const filterBusca = filterCategory.filter((search) => search.title.toLowerCase().includes(lowerBusca));
+
+    // filtro select recente ou antigo
+    // const filter2 = date === 'recente' ? filter1.slice(0).reverse() : filter1.reverse();
+    // const filterDate = date === 'recente' ? filter2.reverse() : filter1;
+
     // retorno filnal
-    return filter3;
+    return filterBusca;
   }
 
-  const handleCategories = (ev) => {
-    const categoryName = (ev.target.value)
-    console.log(categoryName);
-    setCategory(date)
-    return categoryName;
-  };
-
-  const handleDate = (ev) => {
-    const dateName = (ev.target.value)
-    // console.log(dateName);
-    setDate(dateName)
-    return dateName;
-  };
+  // identificando qual filtro deve ser usado
+  const handleCategories = (ev) => setCategory(ev.target.value)
+  const handleDate = (ev) => setDate(ev.target.value)
 
   useEffect(() => {
 
-    const projects = getProjects();
-    const filtrado = filter(projects);
-    // const projects = getProjects(busca);
-    setProjects(filtrado)
-    // console.log(date);
+    const projects = getProjects().reverse();
+    const filtered = filter(projects);
+    setProjects(filtered)
+
   }, [busca, category, date]);
 
   return (
@@ -83,7 +78,7 @@ function Projects() {
           <option value="all">Todas as categorias</option>
           <option value="react">React JS</option>
           <option value="js">JS Vanilla</option>
-          <option value="nojs">Sem Javascript</option>
+          <option value="no">Sem Javascript</option>
         </select>
         <select className={`${showFilter}`} onChange={handleDate} value={date}>
           <option value="recente">Mais Recente</option>

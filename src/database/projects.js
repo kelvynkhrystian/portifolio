@@ -6,7 +6,7 @@ const projects = [
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/port1.png?raw=true",
     github: "https://github.com/kelvynkhrystian",
     deploy: "https://github.com/kelvynkhrystian",
-    category: 'nojs',
+    category: 'no',
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const projects = [
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/forms1.png?raw=true",
     github: "https://github.com/kelvynkhrystian/formulario",
     deploy: "https://formulario-nine-orcin.vercel.app/",
-    category: 'nojs',
+    category: 'no',
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const projects = [
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/login-page.png?raw=true",
     github: "https://github.com/kelvynkhrystian/login-page",
     deploy: "https://login-page-nine-mocha.vercel.app/",
-    category: 'nojs',
+    category: 'no',
   },
   {
     id: 4,

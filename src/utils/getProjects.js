@@ -1,8 +1,7 @@
 import projects from '../database/projects'
 
 const getProjects = () => {
-
-  return projects
+  return projects;
 }
 
 export default getProjects;
