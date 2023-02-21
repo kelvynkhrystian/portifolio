@@ -10,8 +10,8 @@ function Projects() {
   const [showFilter, setShowFilter] = useState('none');
   const [busca, setBusca] = useState('');
   
-  const showFilterBox = state => {
-    state === 'none' ? setShowFilter('flex') : setShowFilter('none');
+  const showFilterBox = display => {
+    display === 'none' ? setShowFilter('flex') : setShowFilter('none');
   };
 
   useEffect(() => {
