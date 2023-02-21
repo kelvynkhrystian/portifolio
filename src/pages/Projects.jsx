@@ -14,14 +14,20 @@ function Projects() {
     display === 'none' ? setShowFilter('flex') : setShowFilter('none');
   };
 
+  const handleCategories = (ev) => ev.target.value
+  const handleDate = (ev) => ev.target.value
+
   useEffect(() => {
-    const projects = getProjects(busca);
+
+    const category = handleCategories()
+    const date = handleDate()
+    const projects = getProjects(busca,category,date);
+    
     setProjects(projects)
   }, [busca]);
 
   return (
     <>
-      <Header />
       <ProjectHeader>
         <h1>Projetos</h1>
         <div>
@@ -47,15 +53,15 @@ function Projects() {
         </div>
       </ProjectHeader>
       <ProjectFilter >
-        <select className={`${showFilter}`}>
+        <select className={`${showFilter}`} onChange={handleCategories}>
           <option value="all">Todas as categorias</option>
           <option value="nojs">No JS</option>
           <option value="js">JS Vanilla</option>
           <option value="react">React JS</option>
         </select>
-        <select className={`${showFilter}`}>
-          <option value="all">Mais Recente</option>
-          <option value="nojs">Mais Antigo</option>
+        <select className={`${showFilter}`} onChange={handleDate}>
+          <option value="recente">Mais Recente</option>
+          <option value="antigo">Mais Antigo</option>
         </select>
       </ProjectFilter>
       <ProjectBox>
@@ -72,6 +78,7 @@ function Projects() {
           );
         })}
       </ProjectBox>
+      <Header />
     </>
   )
 }
