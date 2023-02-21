@@ -11,7 +11,7 @@ function Projects() {
   const [showFilter, setShowFilter] = useState('none');
   const [busca, setBusca] = useState('');
   const [category, setCategory] = useState('all');
-  const [date, setDate] = useState('recente');
+  const [date, setDate] = useState('');
   
   const showFilterBox = display => {
     display === 'none' ? setShowFilter('flex') : setShowFilter('none');
@@ -25,7 +25,7 @@ function Projects() {
 
     // filtro de busca escrita
     const lowerBusca = busca.toLowerCase()
-    const filterBusca = filterCategory.filter((search) => search.title.toLowerCase().includes(lowerBusca));
+    let filterBusca = filterCategory.filter((search) => search.title.toLowerCase().includes(lowerBusca));
 
     // filtro select recente ou antigo
     // const filter2 = date === 'recente' ? filter1.slice(0).reverse() : filter1.reverse();
@@ -41,7 +41,8 @@ function Projects() {
 
   useEffect(() => {
 
-    const projects = getProjects().reverse();
+    const projects = getProjects();
+    console.log(projects);
     const filtered = filter(projects);
     setProjects(filtered)
 
