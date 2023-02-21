@@ -6,17 +6,18 @@ import getProjects from '../utils/getProjects'
 
 function Projects() {
 
-  const [projects, setProjects] = useState([])
-  const [showFilter, setShowFilter] = useState('none')
+  const [projects, setProjects] = useState([]);
+  const [showFilter, setShowFilter] = useState('none');
+  const [busca, setBusca] = useState('');
   
-  const filter = state => {
-    state === 'none' ? setShowFilter('flex') : setShowFilter('none')
-  }
+  const showFilterBox = state => {
+    state === 'none' ? setShowFilter('flex') : setShowFilter('none');
+  };
 
   useEffect(() => {
-    const projects = getProjects();
+    const projects = getProjects(busca);
     setProjects(projects)
-  }, []);
+  }, [busca]);
 
   return (
     <>
@@ -25,10 +26,24 @@ function Projects() {
         <h1>Projetos</h1>
         <div>
           <label htmlFor="search">
-            <input type="text" placeholder='Busque um projeto ...' />
-            <img src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/lupa.png?raw=true" alt="lupa" />
+
+            <input 
+              type="text"
+              value={busca}
+              placeholder='Busque um projeto ...'
+              onChange={(ev) => {setBusca(ev.target.value)}}
+            />
+            <img
+              src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/lupa.png?raw=true"
+              alt="lupa"
+            />
+          
           </label>
-          <img onClick={() => filter(showFilter)} src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/filter.png?raw=true" alt="filtro" />
+          <img
+            onClick={() => showFilterBox(showFilter)}
+            src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/filter.png?raw=true"
+            alt="filtro"
+          />
         </div>
       </ProjectHeader>
       <ProjectFilter >
