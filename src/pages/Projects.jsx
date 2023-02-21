@@ -11,17 +11,17 @@ function Projects() {
   const [showFilter, setShowFilter] = useState('none');
   const [busca, setBusca] = useState('');
   const [category, setCategory] = useState('all');
-  const [date, setDate] = useState('');
+  const [date, setDate] = useState('current');
   
   const showFilterBox = display => {
     display === 'none' ? setShowFilter('flex') : setShowFilter('none');
   };
 
-  const filter = (projects) => {
+  const filter = (projects,category,date) => {
 
     // filtro select por categoria
     let filterCategory = projects.filter((search) => search.category.includes(category));
-    if (category === 'all') filterCategory = projects
+    if (category === 'all') filterCategory = projects;
 
     // filtro de busca escrita
     const lowerBusca = busca.toLowerCase()
@@ -29,10 +29,10 @@ function Projects() {
 
     // filtro select recente ou antigo
     // const filter2 = date === 'recente' ? filter1.slice(0).reverse() : filter1.reverse();
-    // const filterDate = date === 'recente' ? filter2.reverse() : filter1;
+    const filterDate = date === 'current' ? filterBusca.reverse() : filterBusca;
 
     // retorno filnal
-    return filterBusca;
+    return filterDate;
   }
 
   // identificando qual filtro deve ser usado
@@ -42,8 +42,7 @@ function Projects() {
   useEffect(() => {
 
     const projects = getProjects();
-    console.log(projects);
-    const filtered = filter(projects);
+    const filtered = filter(projects,category,date);
     setProjects(filtered)
 
   }, [busca, category, date]);
@@ -82,8 +81,8 @@ function Projects() {
           <option value="no">Sem Javascript</option>
         </select>
         <select className={`${showFilter}`} onChange={handleDate} value={date}>
-          <option value="recente">Mais Recente</option>
-          <option value="antigo">Mais Antigo</option>
+          <option value="current">Mais Recente</option>
+          <option value="old">Mais Antigo</option>
         </select>
       </ProjectFilter>
       <ProjectBox>

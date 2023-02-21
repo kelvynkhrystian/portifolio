@@ -1,7 +1,7 @@
 import projects from '../database/projects'
 
 const getProjects = () => {
-  return projects.reverse();
+  return projects;
 }
 
 export default getProjects;
