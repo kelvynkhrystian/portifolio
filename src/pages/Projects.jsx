@@ -22,7 +22,7 @@ function Projects() {
     const category = handleCategories()
     const date = handleDate()
     const projects = getProjects(busca,category,date);
-    
+
     setProjects(projects)
   }, [busca]);
 
@@ -55,9 +55,9 @@ function Projects() {
       <ProjectFilter >
         <select className={`${showFilter}`} onChange={handleCategories}>
           <option value="all">Todas as categorias</option>
-          <option value="nojs">No JS</option>
-          <option value="js">JS Vanilla</option>
           <option value="react">React JS</option>
+          <option value="js">JS Vanilla</option>
+          <option value="nojs">Sem Javascript</option>
         </select>
         <select className={`${showFilter}`} onChange={handleDate}>
           <option value="recente">Mais Recente</option>
