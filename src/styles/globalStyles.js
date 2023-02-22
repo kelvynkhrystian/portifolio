@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
     flex-direction: column;
     justify-content: flex-start;
     overflow: hidden;
+    height: 100vh;
     width: 100%;
   }
 
