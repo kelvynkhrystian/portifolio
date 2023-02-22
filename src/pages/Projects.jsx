@@ -49,6 +49,7 @@ function Projects() {
 
   return (
     <>
+      <Header />
       <ProjectHeader>
         <h1>Projetos</h1>
         <div>
@@ -99,7 +100,6 @@ function Projects() {
           );
         })}
       </ProjectBox>
-      <Header />
     </>
   )
 }
