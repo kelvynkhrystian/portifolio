@@ -77,6 +77,7 @@ export const ProjectBox = styled.article`
   width: 100%;
 
   @media (max-width:600px) {
+    margin-bottom: 100px;
   }
 `;
 
