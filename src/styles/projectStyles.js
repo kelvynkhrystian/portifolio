@@ -55,6 +55,7 @@ export const ProjectHeader = styled.article`
   @media (max-width:600px) {
 
     padding: 10px 30px;
+    width: 100%;
 
     div {
       justify-content: center;
@@ -78,6 +79,8 @@ export const ProjectBox = styled.article`
   @media (max-width:600px) {
 
     /* padding-bottom: 100px; */
+    width: 80%;
+    background-color: red;
     
   }
 `;

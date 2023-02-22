@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    width: 100%;
   }
 
   #root {
@@ -19,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
     align-items: center;
     color: white;
     background-color: #0f0f0f;
+    background-color: blue;
     display: flex;
     flex-direction: column;
     font-family: 'Patua One', cursive;
@@ -30,7 +32,7 @@ const GlobalStyle = createGlobalStyle`
 
   @media (min-width:600px) {
     body {
-
+      /* background-color: blue; */
     };
   }
 `;
