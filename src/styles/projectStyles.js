@@ -77,10 +77,6 @@ export const ProjectBox = styled.article`
   width: 100%;
 
   @media (max-width:600px) {
-
-    /* padding-bottom: 100px; */
-    /* background-color: red; */
-    
   }
 `;
 
