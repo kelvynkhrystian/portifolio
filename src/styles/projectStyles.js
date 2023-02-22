@@ -73,7 +73,7 @@ export const ProjectBox = styled.article`
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
 
   @media (max-width:600px) {
