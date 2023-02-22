@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 import { ProjectCard } from '../styles/projectStyles'
 // import PropTypes from 'prop-types';
 
-function CardProjects({ title, subtitle, image}) {
+function CardProjects({ id, title, subtitle, image}) {
+
+  const rotaId = `projects/${id}`
 
   return (
     <ProjectCard>
@@ -11,7 +13,7 @@ function CardProjects({ title, subtitle, image}) {
       <h1>{title.toUpperCase()}</h1>
       <h2>{subtitle}</h2>
       
-      <Link to="/projects/2">
+      <Link to={rotaId}>
         <button>Ver Projeto</button>
       </Link>
     </ProjectCard>

@@ -96,6 +96,7 @@ function Projects() {
               image={elem.image}
               github={elem.github}
               deploy={elem.deploy}
+              id={elem.id}
             />
           );
         })}
