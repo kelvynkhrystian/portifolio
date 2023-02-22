@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from 'react'
 import Header from '../components/Header'
 import getSkills from '..//utils/getSkills'
-import SkillStyles from '../styles/skillStyles'
+import {SkillStyles} from '../styles/skillStyles'
 
 function Skills() {
 
