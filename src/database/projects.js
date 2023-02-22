@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     title: '1º Portifolio',
-    subtitle: "primeiro contato com o mundo web",
+    subtitle: "Primeiro contato com o mundo web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/port1.png?raw=true",
     github: "https://github.com/kelvynkhrystian",
     deploy: "https://github.com/kelvynkhrystian",
@@ -20,7 +20,7 @@ const projects = [
   {
     id: 3,
     title: "Login Page",
-    subtitle: "Uma página de login - HTML e CSS",
+    subtitle: "Uma página de login",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/login-page.png?raw=true",
     github: "https://github.com/kelvynkhrystian/login-page",
     deploy: "https://login-page-nine-mocha.vercel.app/",
@@ -29,7 +29,7 @@ const projects = [
   {
     id: 4,
     title: "Calculadora",
-    subtitle: "uma calculadora js com tema one piece",
+    subtitle: "Calculadora com tema: One piece",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/calculadora.png?raw=true",
     github: "https://github.com/kelvynkhrystian/calculadora",
     deploy: "https://calculadora-omega-two.vercel.app/",
@@ -65,7 +65,7 @@ const projects = [
   {
     id: 8,
     title: "Casa de Câmbio",
-    subtitle: "Simula cotação de cambio de uma API",
+    subtitle: "Simula cotação de câmbio com API",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/cambio.png?raw=true",
     github: "https://github.com/kelvynkhrystian/casaDeCambio",
     deploy: "https://casa-de-cambio-nine.vercel.app/",
@@ -74,7 +74,7 @@ const projects = [
   {
     id: 9,
     title: "Shopping Cart",
-    subtitle: "carrinho de compras com ES6",
+    subtitle: "Carrinho de compras",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/shopping.png?raw=true",
     github: "https://github.com/kelvynkhrystian/shoppingCart",
     deploy: "https://shopping-zeta-jade.vercel.app/",
@@ -83,7 +83,7 @@ const projects = [
   {
     id: 10,
     title: "Lhama Password",
-    subtitle: "gerador de senhas em React",
+    subtitle: "Gerador de senhas seguras",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/lhama.gif?raw=true",
     github: "https://github.com/kelvynkhrystian/generate-password",
     deploy: "https://generate-password-six.vercel.app/",
