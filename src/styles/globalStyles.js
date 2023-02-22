@@ -12,7 +12,6 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 100vh;
     width: 100%;
   }
 
@@ -20,7 +19,6 @@ const GlobalStyle = createGlobalStyle`
     align-items: center;
     color: white;
     background-color: #0f0f0f;
-    background-color: blue;
     display: flex;
     flex-direction: column;
     font-family: 'Patua One', cursive;
