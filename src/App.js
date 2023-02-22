@@ -4,6 +4,7 @@ import Profile from './pages/Profile'
 import Projects from './pages/Projects'
 import Skills from './pages/Skills'
 import Projectid from './pages/Projectid'
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/projects/:id" component={ Projectid } />
       <Route path="/skills" component={ Skills } />
       <Route path="/profile" component={ Profile } />
+      <Route path="*" component={ NotFound } />
     </Switch>
   );
 }
