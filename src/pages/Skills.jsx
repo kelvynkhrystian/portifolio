@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from 'react'
 import Header from '../components/Header'
 import getSkills from '..//utils/getSkills'
+import SkillStyles from '../styles/skillStyles'
 
 function Skills() {
 
@@ -16,7 +17,7 @@ function Skills() {
   return (
     <>
       <Header />
-      <div>
+      <SkillStyles>
         {skills.map((elem) => {
             return (
               <section>
@@ -26,7 +27,7 @@ function Skills() {
               </section>
             );
           })}
-      </div>
+      </SkillStyles>
     </>
   )
 }
