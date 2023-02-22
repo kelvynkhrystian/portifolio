@@ -29,7 +29,6 @@ function Home() {
         <div className='rigth-home'>
           <img src={cubo} alt="cubo-transmorfo" />
         </div>
-        
       </HomeStyles>
     </>
   )

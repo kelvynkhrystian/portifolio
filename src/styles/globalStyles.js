@@ -5,14 +5,13 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    width: 100%;
   }
 
   #root {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     height: 100vh;
     width: 100%;
   }
