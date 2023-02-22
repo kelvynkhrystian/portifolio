@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    overflow: hidden;
     width: 100%;
   }
 
