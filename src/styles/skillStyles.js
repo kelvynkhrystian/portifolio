@@ -95,8 +95,9 @@ export const SkillStyles = styled.article`
 
     section {
       margin: 15px 10px;
+      padding: 10px 0;
       height: 115px;
-      width: 100px;
+      width: 90px;
     }
 
     img {
