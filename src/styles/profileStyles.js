@@ -94,12 +94,25 @@ export const ProfileStyles = styled.article`
       border-left: none;
       border-top: 1px solid white;
       margin: 0;
-      padding: 10px 25px;
+      padding: 10px 0;
       width: 90%;
       margin-bottom: 75px;
 
       img {
         width: 20px;
+      }
+
+      div {
+        justify-content: flex-start;
+        width: 100%;
+      }
+
+      a {
+        margin: 10px 0;
+      }
+
+      p {
+        font-size: 1.5em;
       }
     }
     
