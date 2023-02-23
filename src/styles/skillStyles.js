@@ -62,12 +62,13 @@ export const SkillStyles = styled.article`
   legend {
     font-size: 2em;
     padding: 15px;
+    /* filter: brightness(90%); */
   }
 
   img {
     border-radius: 10px;
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
   }
   
 
@@ -91,7 +92,12 @@ export const SkillStyles = styled.article`
 
     section {
       height: 100px;
-      width: 90px;
+      width: 92px;
+    }
+
+    img {
+      height: 50px;
+      width: 50px;
     }
     
   }
