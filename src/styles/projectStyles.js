@@ -91,7 +91,7 @@ export const ProjectFilter = styled.section`
   justify-content: flex-start;
   padding: 10px 50px;
   width: 100%;
-  margin: 0 5px;
+  margin: 10px 5px;
 
   select {
     align-items: center;
