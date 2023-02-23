@@ -72,6 +72,36 @@ export const ProfileStyles = styled.article`
   /* responsividade mobile */
   @media (max-width:600px) {
 
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .repeat {
+      display: none;
+    }
+
+    section.perfil {
+      padding: 25px;
+      width: 100%;
+
+      img {
+        width: 45%;
+      }
+    }
+
+    section.contato {
+
+      border-left: none;
+      border-top: 1px solid white;
+      margin: 0;
+      padding: 10px 25px;
+      width: 100%;
+      /* margin-bottom: 50px; */
+
+      img {
+        width: 20px;
+      }
+    }
     
     
   }
