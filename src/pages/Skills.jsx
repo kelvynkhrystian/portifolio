@@ -2,6 +2,7 @@ import React, { useState, useEffect} from 'react'
 import Header from '../components/Header'
 import getSkills from '..//utils/getSkills'
 import {SkillStyles} from '../styles/skillStyles'
+import DevFullStackBar from '../components/DevFullStackBar'
 
 function Skills() {
 
@@ -17,6 +18,7 @@ function Skills() {
   return (
     <>
       <Header />
+      <DevFullStackBar />
       <SkillStyles>
         {skills.map((elem) => {
             return (
