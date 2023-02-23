@@ -93,9 +93,9 @@ export const SkillStyles = styled.article`
     }
 
     section {
-      margin: 15px;
-      height: 100px;
-      width: 92px;
+      margin: 15px 10px;
+      height: 110px;
+      width: 95px;
     }
 
     img {
