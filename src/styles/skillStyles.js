@@ -7,6 +7,7 @@ export const SkillStyles = styled.article`
   flex-direction: row;
   justify-content: center;
   margin-top: 25px;
+  margin-bottom: 50px;
   width: 100%;
 
   div.skills {
