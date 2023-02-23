@@ -52,14 +52,14 @@ const skills = [
     id: 8,
     title: 'Jest',
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
-    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/styled.png?raw=true",
+    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/jest.png?raw=true",
     category: 'front',
   },
   {
     id: 9,
     title: 'RTL',
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
-    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/styled.png?raw=true",
+    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/rtl.png?raw=true",
     category: 'front',
   }
   
