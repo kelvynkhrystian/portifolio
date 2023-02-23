@@ -18,7 +18,7 @@ export const ProfileStyles = styled.article`
 
   section > img {
     border-radius: 15px;
-    width: 40%;
+    width: 45%;
   }
 
   p {

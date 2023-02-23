@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import { ProfileStyles, ProfileHeader } from '../styles/profileStyles'
 import profile1 from '../imgs/profile/1.png'
+import profile2 from '../imgs/profile/2.jpg'
 import DevFullStackBar from '../components/DevFullStackBar'
 
 function Profile() {
@@ -14,7 +15,7 @@ function Profile() {
       </ProfileHeader>
       <ProfileStyles>
         <section>
-          <img src='https://pps.whatsapp.net/v/t61.24694-24/254456302_977615322960961_8740341469155859531_n.jpg?ccb=11-4&oh=01_AdS83kZfSia8II6URkgcD5Toem3IaGuyCeNQuynd5gAgUQ&oe=6403B2A7' alt="kelvyn de perfil" />
+          <img src={profile2} alt="kelvyn de frente" />
           <img src={profile1} alt="kelvyn de perfil" />
         </section>
         <p>
