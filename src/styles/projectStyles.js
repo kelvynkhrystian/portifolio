@@ -91,7 +91,7 @@ export const ProjectFilter = styled.section`
   justify-content: flex-start;
   padding: 10px 50px;
   width: 100%;
-  margin: 20px 5px;
+  margin: 0 5px;
 
   select {
     align-items: center;
@@ -105,6 +105,7 @@ export const ProjectFilter = styled.section`
     outline: none;
     width: 25%;
     margin-right: 10px;
+    margin-top: 5px;
   }
 
   .none {
@@ -117,11 +118,12 @@ export const ProjectFilter = styled.section`
 
   @media (max-width:600px) {
 
-    padding: 5px 5px;
+    padding: 0 5px;
     justify-content: space-around;
 
     select {
       margin-right: 0px;
+      margin-top: 10px;
       width: 42%;
     }
     
