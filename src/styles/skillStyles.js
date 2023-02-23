@@ -79,6 +79,8 @@ export const SkillStyles = styled.article`
     margin-bottom: 100px;
 
     fieldset {
+      align-items: center;
+      justify-content: center;
       width: 100%;
     }
 
@@ -91,6 +93,7 @@ export const SkillStyles = styled.article`
     }
 
     section {
+      margin: 15px;
       height: 100px;
       width: 92px;
     }
