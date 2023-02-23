@@ -10,7 +10,7 @@ export const ProfileStyles = styled.article`
   width: 100%;
 
   section.perfil {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,6 +30,10 @@ export const ProfileStyles = styled.article`
     img {
       border-radius: 25px;
       width: 200px;
+    }
+
+    p {
+      margin-top: 15px;
     }
   }
 

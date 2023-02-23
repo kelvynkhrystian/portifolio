@@ -29,7 +29,9 @@ function Profile() {
             conseguindo meu primeiro grande feito, baixar e gravar meu primeiro 
             jogo no ps2, e aproveitar jogando com os amigos, ainda antes de entender
             pq ao inves de gravar dvd, tinha escrito o nome queimar dvd rs.
-            Atualmente um estudante de desenvolvimento web da Trybe.
+          </p>
+          <p>Atualmente um estudante de desenvolvimento web da Trybe. Fase 3/4 estudando
+            Backend. Conteúdo atual: Typescript
           </p>
         </section>
         <section className='contato'>
