@@ -35,15 +35,33 @@ export const ProfileStyles = styled.article`
 
   section.contato {
     align-items: center;
-    border-left: 10px solid white;
+    border-left: 1px solid white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    height: 100%;
+    justify-content: flex-start;
     margin-top: 25px;
     width: 30%;
 
+    div {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
     img {
-      width: 50px;
+      border-radius: 5px;
+      margin: 0 10px;
+      width: 25px;
+    }
+
+    a {
+      align-items: center;
+      color: white;
+      display: flex;
+      margin: 10px;
+      text-decoration: none;
     }
   }
 
