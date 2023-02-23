@@ -55,7 +55,7 @@ function Profile() {
             <a href="mailto:khrystian.dev@hotmail.com">
               
               <img src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/rede-social/outlook.png?raw=true" alt="logo linkedin" />
-              <p> khrsytian.dev@hotmail.com </p>
+              <p> khrystian.dev@hotmail.com </p>
             </a>
           </div>
 
