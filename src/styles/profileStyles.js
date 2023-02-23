@@ -46,7 +46,7 @@ export const ProfileStyles = styled.article`
     color: white;
     display: flex;
     font-size: 1.2em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-decoration: none;
   }
 
