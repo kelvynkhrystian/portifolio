@@ -19,8 +19,9 @@ export const SkillStyles = styled.article`
 
   div.prev {
     align-items: center;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 10px;
+    background-image: url('https://i.pinimg.com/originals/eb/07/bd/eb07bd44d9ec8ceacf78e724fe198a66.gif');
     display: flex;
     flex-direction: column;
     height: 100%;
