@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from 'react'
 import Header from '../components/Header'
 import getSkills from '..//utils/getSkills'
-import {SkillStyles} from '../styles/skillStyles'
+import {SkillStyles, SkillHeader} from '../styles/skillStyles'
 import DevFullStackBar from '../components/DevFullStackBar'
 
 function Skills() {
@@ -19,9 +19,22 @@ function Skills() {
     <>
       <Header />
       <DevFullStackBar />
+      <SkillHeader>
+        <h1>Habilidades</h1>
+        <p>Clique nos ícones de tecnologias e receba informações sobre a mesma!</p>
+      </SkillHeader>
       <fieldset>
-        <legend>Order a T-Shirt</legend>
-        <p>testando</p>
+        <legend>FrontEnd</legend>
+        <p>testandoasdasdasd</p>
+        <h2>test</h2>
+        <p>testandoasdasdasd</p>
+        <h2>test</h2>
+      </fieldset>
+      <fieldset>
+        <legend>FrontEnd</legend>
+        <p>testandoasdasdasd</p>
+        <h2>test</h2>
+        <p>testandoasdasdasd</p>
         <h2>test</h2>
       </fieldset>
       <SkillStyles>
