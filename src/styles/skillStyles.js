@@ -50,10 +50,12 @@ export const SkillStyles = styled.article`
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+    /* margin-left: 20px; */
+    margin: 5px;
     margin-bottom: 20px;
-    height: 125px;
-    padding: 10px;
-    width: 100px;
+    height: 100px;
+    padding: 5px;
+    width: 75px;
   }
 
   section:hover {
@@ -68,8 +70,8 @@ export const SkillStyles = styled.article`
 
   img {
     border-radius: 10px;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
   }
   
 
