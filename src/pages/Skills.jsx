@@ -9,7 +9,7 @@ function Skills() {
   const [skills, setSkills] = useState([]);
   const front = skills.filter((elem) => elem.category === 'front')
   const back = skills.filter((elem) => elem.category === 'back')
-  const test = skills.filter((elem) => elem.category === 'test')
+  // const test = skills.filter((elem) => elem.category === 'test')
   const ferr = skills.filter((elem) => elem.category === 'ferr')
   const soft = skills.filter((elem) => elem.category === 'soft')
 
@@ -55,7 +55,7 @@ function Skills() {
               })}  
           </fieldset>
 
-          <fieldset>
+          {/* <fieldset>
             <legend>Testes</legend>
             {test.map((elem) => {
                 return (
@@ -65,7 +65,7 @@ function Skills() {
                   </section>
                 );
               })}  
-          </fieldset>
+          </fieldset> */}
 
           <fieldset>
             <legend>Ferramentas</legend>
