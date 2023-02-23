@@ -4,6 +4,7 @@ import { ProjectBox, ProjectHeader, ProjectFilter} from '../styles/projectStyles
 import Header from '../components/Header'
 import CardProjects from '../components/CardProjects'
 import getProjects from '../utils/getProjects'
+import DevFullStackBar from '../components/DevFullStackBar'
 
 function Projects() {
 
@@ -50,6 +51,7 @@ function Projects() {
   return (
     <>
       <Header />
+      <DevFullStackBar />
       <ProjectHeader>
         <h1>Projetos</h1>
         <div>
