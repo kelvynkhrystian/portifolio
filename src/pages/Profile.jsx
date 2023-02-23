@@ -39,11 +39,13 @@ function Profile() {
             <img src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/rede-social/WhatsApp.png?raw=true" alt="logo linkedin" />
             <p> Whatsapp </p>
           </a>
-          <a href="https://www.linkedin.com/in/kelvynkhrystian/">
+          <a href="mailto:khrystian.dev@hotmail.com">
             
             <img src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/rede-social/outlook.png?raw=true" alt="logo linkedin" />
             <p> khrsytian.dev@hotmail.com </p>
           </a>
+
+          
         </div>
         
 
