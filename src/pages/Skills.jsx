@@ -7,6 +7,9 @@ import DevFullStackBar from '../components/DevFullStackBar'
 function Skills() {
 
   const [skills, setSkills] = useState([]);
+  const front = skills.filter((elem) => elem.category === 'front')
+  // const back = skills.filter((elem) => elem.category === 'back')
+  // const test = skills.filter((elem) => elem.category === 'test')
 
   useEffect(() => {
 
@@ -23,22 +26,42 @@ function Skills() {
         <h1>Habilidades - página em desenvolvimento</h1>
         <p>Clique nos ícones de tecnologias e receba informações sobre a mesma!</p>
       </SkillHeader>
-      <fieldset>
-        <legend>FrontEnd</legend>
-        <p>testandoasdasdasd</p>
-        <h2>test</h2>
-        <p>testandoasdasdasd</p>
-        <h2>test</h2>
-      </fieldset>
-      <fieldset>
-        <legend>FrontEnd</legend>
-        <p>testandoasdasdasd</p>
-        <h2>test</h2>
-        <p>testandoasdasdasd</p>
-        <h2>test</h2>
-      </fieldset>
       <SkillStyles>
-        {skills.map((elem) => {
+        <fieldset>
+
+          <legend>FrontEnd</legend>
+
+          {front.map((elem) => {
+            return (
+              <section>
+                <h1>{elem.title}</h1>
+                <img src={elem.image} alt={elem.title} />
+              </section>
+            );
+          })}    
+
+        </fieldset>
+          
+
+
+        <fieldset>
+          <legend>BackEnd</legend>
+
+        </fieldset>
+        <fieldset>
+          <legend>Testes</legend>
+
+        </fieldset>
+        <fieldset>
+          <legend>Ferramentas</legend>
+
+        </fieldset>
+        <fieldset>
+          <legend>Soft Skills</legend>
+
+        </fieldset>
+
+        {/* {skills.map((elem) => {
             return (
               <section>
                 <img src={elem.image} alt={elem.title} />
@@ -46,7 +69,7 @@ function Skills() {
                 <h2>{elem.subtitle}</h2>
               </section>
             );
-          })}
+        })} */}
       </SkillStyles>
     </>
   )

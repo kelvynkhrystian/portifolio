@@ -3,6 +3,32 @@ import styled from "styled-components";
 export const SkillStyles = styled.article`
 
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+
+  fieldset {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    width: 90%;
+  }
+
+  section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: red;
+    /* margin: 10px; */
+  }
+
+  legend {
+    margin: 15px;
+  }
+
   img {
     width: 50px;
   }
@@ -11,7 +37,9 @@ export const SkillStyles = styled.article`
   /* responsividade mobile */
   @media (max-width:600px) {
 
-    bottom:0;
+    section {
+      width: 70px;
+    }
     
   }
 `;
@@ -52,6 +80,7 @@ export const SkillHeader = styled.article`
   @media (max-width:600px) {
 
     flex-direction: column;
+    padding: 10px 30px;
 
     p {
       display: flex;

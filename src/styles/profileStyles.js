@@ -134,7 +134,7 @@ export const ProfileHeader = styled.article`
   /* responsividade mobile */
   @media (max-width:600px) {
 
-    align-items: center;
+    padding: 10px 30px;
     
   }
 `;
