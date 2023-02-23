@@ -95,8 +95,8 @@ export const ProfileStyles = styled.article`
       border-top: 1px solid white;
       margin: 0;
       padding: 10px 25px;
-      width: 100%;
-      /* margin-bottom: 50px; */
+      width: 90%;
+      margin-bottom: 75px;
 
       img {
         width: 20px;
