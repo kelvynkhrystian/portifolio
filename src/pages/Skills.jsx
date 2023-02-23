@@ -8,8 +8,10 @@ function Skills() {
 
   const [skills, setSkills] = useState([]);
   const front = skills.filter((elem) => elem.category === 'front')
-  // const back = skills.filter((elem) => elem.category === 'back')
-  // const test = skills.filter((elem) => elem.category === 'test')
+  const back = skills.filter((elem) => elem.category === 'back')
+  const test = skills.filter((elem) => elem.category === 'test')
+  const ferr = skills.filter((elem) => elem.category === 'ferr')
+  const soft = skills.filter((elem) => elem.category === 'soft')
 
   useEffect(() => {
 
@@ -27,49 +29,72 @@ function Skills() {
         <p>Clique nos ícones de tecnologias e receba informações sobre a mesma!</p>
       </SkillHeader>
       <SkillStyles>
-        <fieldset>
+        <div className='skills'>
 
-          <legend>FrontEnd</legend>
+          <fieldset>
+            <legend>FrontEnd</legend>
+            {front.map((elem) => {
+              return (
+                <section>
+                  <h1>{elem.title}</h1>
+                  <img src={elem.image} alt={elem.title} />
+                </section>
+              );
+            })}    
+          </fieldset>
 
-          {front.map((elem) => {
-            return (
-              <section>
-                <h1>{elem.title}</h1>
-                <img src={elem.image} alt={elem.title} />
-              </section>
-            );
-          })}    
+          <fieldset>
+            <legend>BackEnd</legend>
+            {back.map((elem) => {
+                return (
+                  <section>
+                    <h1>{elem.title}</h1>
+                    <img src={elem.image} alt={elem.title} />
+                  </section>
+                );
+              })}  
+          </fieldset>
 
-        </fieldset>
-          
+          <fieldset>
+            <legend>Testes</legend>
+            {test.map((elem) => {
+                return (
+                  <section>
+                    <h1>{elem.title}</h1>
+                    <img src={elem.image} alt={elem.title} />
+                  </section>
+                );
+              })}  
+          </fieldset>
 
+          <fieldset>
+            <legend>Ferramentas</legend>
+            {ferr.map((elem) => {
+                return (
+                  <section>
+                    <h1>{elem.title}</h1>
+                    <img src={elem.image} alt={elem.title} />
+                  </section>
+                );
+              })}  
+          </fieldset>
 
-        <fieldset>
-          <legend>BackEnd</legend>
-
-        </fieldset>
-        <fieldset>
-          <legend>Testes</legend>
-
-        </fieldset>
-        <fieldset>
-          <legend>Ferramentas</legend>
-
-        </fieldset>
-        <fieldset>
+          <fieldset>
           <legend>Soft Skills</legend>
+            {soft.map((elem) => {
+                return (
+                  <section>
+                    <h1>{elem.title}</h1>
+                    <img src={elem.image} alt={elem.title} />
+                  </section>
+                );
+              })}  
+          </fieldset>
 
-        </fieldset>
-
-        {/* {skills.map((elem) => {
-            return (
-              <section>
-                <img src={elem.image} alt={elem.title} />
-                <h1>{elem.title.toUpperCase()}</h1>
-                <h2>{elem.subtitle}</h2>
-              </section>
-            );
-        })} */}
+        </div>
+        <div className='prev'>
+          <h1>pre-visualização</h1>
+        </div>
       </SkillStyles>
     </>
   )

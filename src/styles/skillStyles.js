@@ -4,38 +4,78 @@ export const SkillStyles = styled.article`
 
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  margin-top: 25px;
   width: 100%;
 
+  div.skills {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+  }
+
+  div.prev {
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin: 10px;
+    width: 25%;
+  }
+
   fieldset {
+    border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 10px 0;
-    width: 90%;
+    /* margin: 10px 0; */
+    width: 95%;
   }
 
   section {
     align-items: center;
+    background-color: #0f0f0f;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgba(54,53,54,1);
+    cursor: pointer;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    background-color: red;
-    /* margin: 10px; */
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 125px;
+    padding: 10px;
+    width: 100px;
+  }
+
+  section:hover {
+    box-shadow: 0px 0px 5px 5px rgba(54,53,54,1);
   }
 
   legend {
-    margin: 15px;
+    font-size: 2em;
+    padding: 15px;
   }
 
   img {
+    border-radius: 10px;
+    height: 50px;
     width: 50px;
   }
   
 
   /* responsividade mobile */
   @media (max-width:600px) {
+
+    div.prev {
+      display: none;
+    }
 
     section {
       width: 70px;

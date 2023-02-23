@@ -15,7 +15,7 @@ const skills = [
   },
   {
     id: 3,
-    title: 'Javascript',
+    title: 'JS',
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/js.png?raw=true",
     category: 'front',
@@ -36,14 +36,14 @@ const skills = [
   },
   {
     id: 6,
-    title: 'Context API',
+    title: 'Context',
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/context.png?raw=true",
     category: 'front',
   },
   {
     id: 7,
-    title: 'Styled Comp.',
+    title: 'Styled C.',
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/styled.png?raw=true",
     category: 'front',
