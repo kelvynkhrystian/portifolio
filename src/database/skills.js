@@ -52,7 +52,7 @@ const skills = [
     id: 8,
     title: 'Jest',
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
-    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/jest.png?raw=true",
+    image : "https://raw.githubusercontent.com/kelvynkhrystian/portifolio/6d10f3e63f0443af570bf510386634ff4c5a0438/src/imgs/skills/jest.svg",
     category: 'front',
   },
   {
