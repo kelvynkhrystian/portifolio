@@ -38,13 +38,13 @@ export const SkillHeader = styled.article`
   background-color: #272727;
   display: flex;
   justify-content: flex-start;
-  font-family: 'Roboto Condensed', sans-serif;
   font-size: 1em;
   padding: 10px 30px;
   width: 100%;
 
   p {
     display: none;
+    font-family: 'Roboto Condensed', sans-serif;
   }
   
 
