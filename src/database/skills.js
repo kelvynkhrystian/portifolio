@@ -45,7 +45,7 @@ const skills = [
     id: 7,
     title: 'Styled Comp.',
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
-    image : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/styled.png?raw=true",
     category: 'front',
   }
   
