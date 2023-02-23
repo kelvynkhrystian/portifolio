@@ -98,6 +98,7 @@ export const SkillStyles = styled.article`
       padding: 10px 0;
       height: 115px;
       width: 90px;
+      margin-top: 0;
     }
 
     img {
