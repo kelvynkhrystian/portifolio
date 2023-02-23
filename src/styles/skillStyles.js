@@ -74,12 +74,24 @@ export const SkillStyles = styled.article`
   /* responsividade mobile */
   @media (max-width:600px) {
 
+    margin-top: 0;
+    margin-bottom: 100px;
+
+    fieldset {
+      width: 100%;
+    }
+
+    div.skills {
+      width: 90%;
+    }
+
     div.prev {
       display: none;
     }
 
     section {
-      width: 70px;
+      height: 100px;
+      width: 90px;
     }
     
   }
@@ -125,7 +137,8 @@ export const SkillHeader = styled.article`
 
     p {
       display: flex;
-      margin-top: 10px;
+      margin-top: 5px;
+      margin-bottom: 10px;
     }
     
   }

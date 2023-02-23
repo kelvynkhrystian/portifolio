@@ -25,8 +25,8 @@ function Skills() {
       <Header />
       <DevFullStackBar />
       <SkillHeader>
-        <h1>Habilidades - página em desenvolvimento</h1>
-        <p>Clique nos ícones de tecnologias e receba informações sobre a mesma!</p>
+        <h1>Habilidades</h1>
+        <p>Clique nos ícones e receba informações</p>
       </SkillHeader>
       <SkillStyles>
         <div className='skills'>
