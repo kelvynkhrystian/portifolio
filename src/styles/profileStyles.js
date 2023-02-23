@@ -37,7 +37,6 @@ export const ProfileStyles = styled.article`
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
     width: 90%;
   }
 
@@ -49,7 +48,6 @@ export const ProfileStyles = styled.article`
     margin-bottom: 10px;
     text-decoration: none;
   }
-  
 
   /* responsividade mobile */
   @media (max-width:600px) {
