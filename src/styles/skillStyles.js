@@ -39,7 +39,7 @@ export const SkillHeader = styled.article`
   display: flex;
   justify-content: flex-start;
   font-size: 1em;
-  padding: 10px 30px;
+  padding: 10px 50px;
   width: 100%;
 
   p {
