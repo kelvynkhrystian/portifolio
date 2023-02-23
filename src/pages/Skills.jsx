@@ -19,6 +19,11 @@ function Skills() {
     <>
       <Header />
       <DevFullStackBar />
+      <fieldset>
+        <legend>Order a T-Shirt</legend>
+        <p>testando</p>
+        <h2>test</h2>
+      </fieldset>
       <SkillStyles>
         {skills.map((elem) => {
             return (
