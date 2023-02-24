@@ -80,7 +80,7 @@ const skills = [
     id: 12,
     title: 'Express',
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
-    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/ex.png?raw=true",
+    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/exp.png?raw=true",
     category: 'back',
   },
   {
@@ -123,7 +123,49 @@ const skills = [
     title: 'Linux',
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/sinon.png?raw=true",
-    category: 'fer',
+    category: 'ferr',
+  },
+  {
+    id: 19,
+    title: 'Git',
+    subtitle: "SO",
+    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/sinon.png?raw=true",
+    category: 'ferr',
+  },
+  {
+    id: 20,
+    title: 'Docker',
+    subtitle: "SO",
+    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/sinon.png?raw=true",
+    category: 'ferr',
+  },
+  {
+    id: 21,
+    title: 'Vercel',
+    subtitle: "SO",
+    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/sinon.png?raw=true",
+    category: 'ferr',
+  },
+  {
+    id: 22,
+    title: 'Trello',
+    subtitle: "SO",
+    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/sinon.png?raw=true",
+    category: 'ferr',
+  },
+  {
+    id: 23,
+    title: 'Slack',
+    subtitle: "SO",
+    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/sinon.png?raw=true",
+    category: 'ferr',
+  },
+  {
+    id: 24,
+    title: 'Figma',
+    subtitle: "SO",
+    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/sinon.png?raw=true",
+    category: 'ferr',
   }
   
 ]
