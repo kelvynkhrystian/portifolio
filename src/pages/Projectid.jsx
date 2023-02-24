@@ -38,21 +38,20 @@ function Projectid() {
           </div>
         </section>
         <section className='rigth'>
-          <div>
+          <div className='left'>
             <section>
               <h2>Descrição</h2>
-
+              <p>{project.description}</p>
             </section>
-            <img src={project.image2} alt="ícone do projeto" />
             <section>
-
+              <img src={project.icon} alt="ícone do projeto" />
             </section>
             <section>
               <h2>Tecnologias Usadas</h2>
-
+              <p>{project.technologies}</p>
             </section>
           </div>
-          <div>
+          <div className='rigth'>
             <h2>Preview Mobile</h2>
             <img src={project.image2} alt={project.subtitle} />
           </div>

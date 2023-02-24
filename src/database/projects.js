@@ -86,9 +86,12 @@ const projects = [
     subtitle: "Gerador de senhas seguras",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/lhama.png?raw=true",
     image2 : 'https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/lhama2.png?raw=true',
+    icon: 'https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/lhama3.png?raw=true',
     github: "https://github.com/kelvynkhrystian/generate-password",
     deploy: "https://generate-password-six.vercel.app/",
     category: 'react',
+    description: 'Um app com objetivo de criar senhas aleatórias e seguras com 16 caracteres. Sendo eles letras maiúsculas e minúsculas, números e simbolos.',
+    technologies: 'HTML5, CSS3, Javascript ES6, React, Styled Components, Bibliteca Copy-To-Clipboard e Biblioteca React-Tostify',
   }
 
 ];

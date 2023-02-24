@@ -34,7 +34,6 @@ export const ProjectDisplay = styled.article`
   a.rigth {
     background-color: white;
     color: #111111;
-
   }
 
   section.left {
@@ -77,19 +76,64 @@ export const ProjectDisplay = styled.article`
     background-color: #464646;
     border-radius: 5px;
     display: flex;
+    justify-content: space-evenly;
     width: 50%;
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    div.left {
+      align-items: center;
+      /* background-color: #122211; */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      font-size: 0.5em;
+      height: 100%;
+      width: 50%;
+
+      section {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+      }
+
+      img {
+          width: 150px;
+        }
+    }
+
+    div.rigth {
+      /* font-size: 0.5em; */
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      width: 45%;
+
+      h2 {
+        font-size: 1em;
+        display: none;
+      }
+
+      img {
+        border: 5px solid #111111;
+        border-radius: 15px;
+        width: 90%;
+      }
+    }
   }
-
-  
-
 
   img {
     width: 100px;
   }
 
   @media (max-width:600px) {
-
-    
     
   }
 `;
