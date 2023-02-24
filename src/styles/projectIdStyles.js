@@ -134,7 +134,61 @@ export const ProjectDisplay = styled.article`
   }
 
   @media (max-width:600px) {
-    
+
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+    section.left {
+      font-size: 0.7em;
+      height: 400px;
+      margin-bottom: 25px;
+      width: 90%;
+    }
+
+    section.rigth {
+
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 100px;
+      width: 90%;
+
+      img {
+        width: 90%;
+      }
+
+      div.left {
+
+        margin-bottom: 50px;
+        width: 100%;
+
+        section {
+          align-items: center;
+          display: flex;
+          width: 90%;
+
+          p {
+            text-align: left;
+          }
+        }
+
+        img {
+          display: none;
+        }
+      }
+
+      div.rigth {
+
+        width: 90%;
+
+        img {
+          margin-bottom: 25px;
+        }
+      }
+    }
   }
 `;
 
