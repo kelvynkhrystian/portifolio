@@ -172,7 +172,8 @@ export const ProjectCard = styled.article`
   }
 
   button {
-    background-color: transparent;
+    background-color: #111111;
+    border: none;
     border-radius: 10px;
     /* border: 3px solid #111111; */
     /* box-shadow: 0px 0px 5px 5px rgba(54,53,54,1); */
