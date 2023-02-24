@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { ProjectCard } from '../styles/projectStyles'
-// import PropTypes from 'prop-types';
 
 function CardProjects({ id, title, subtitle, image}) {
 
@@ -19,11 +18,5 @@ function CardProjects({ id, title, subtitle, image}) {
     </ProjectCard>
   )
 }
-
-// CardProjects.propTypes = {
-//   title: PropTypes.string,
-//   subtitle: PropTypes.string,
-//   image: PropTypes.string,
-// };
 
 export default CardProjects
