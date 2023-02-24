@@ -171,7 +171,7 @@ const skills = [
     id: 25,
     title: 'Thunder',
     subtitle: "SO",
-    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/figma.png?raw=true",
+    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/thunder.png?raw=true",
     category: 'ferr',
   }
   
