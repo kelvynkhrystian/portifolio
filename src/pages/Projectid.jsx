@@ -35,8 +35,8 @@ function Projectid() {
           </div>
             
           <div className='down'>
-            <a href={project.github} className='left' >Repositório</a>
-            <a href={project.deploy} className='rigth' >App Online</a>
+            <a href={project.github} target='blank' className='left' >Repositório</a>
+            <a href={project.deploy} target='blank' className='rigth' >App Online</a>
           </div>
         </section>
         <section className='rigth'>

@@ -28,12 +28,20 @@ export const ProjectDisplay = styled.article`
     text-decoration: none;
     text-align: center;
     margin-bottom: 10px;
-    width: 45%;
+    width: 48%;
   }
 
   a.rigth {
     background-color: white;
     color: #111111;
+  }
+
+  a:hover {
+    box-shadow: 0px 0px 5px 5px rgba(54,53,54,1);
+  }
+
+  a:active {
+    transform: scale(0.95);
   }
 
   section.left {
