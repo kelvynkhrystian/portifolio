@@ -166,9 +166,15 @@ export const ProjectDisplay = styled.article`
         width: 100%;
 
         section {
-          align-items: center;
+          align-items: flex-start;
           display: flex;
+          /* justify-content: flex-start; */
           width: 90%;
+
+          h2 {
+            padding-left: 0;
+            padding-top: 25px;
+          }
 
           p {
             text-align: left;
