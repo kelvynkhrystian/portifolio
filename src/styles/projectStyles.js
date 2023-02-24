@@ -163,14 +163,16 @@ export const ProjectCard = styled.article`
   }
 
   a {
+    /* border: 0 0 1px 2px solid red; */
     margin: 10px;
     width: 90%;
+    
   }
 
   button {
     background-color: transparent;
-    border: 0 0 1px 2px solid #222222;
     border-radius: 10px;
+    border: 1px  2px solid black;
     color: white;
     cursor: pointer;
     font-size: 2em;
