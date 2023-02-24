@@ -6,7 +6,8 @@ export const ProfileStyles = styled.article`
   display: flex;
   font-family: 'Roboto Condensed', sans-serif;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-top: 25px;
   width: 100%;
 
   section.perfil {
@@ -14,9 +15,7 @@ export const ProfileStyles = styled.article`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px;
-    padding-top: 25px;
-    width: 65%;
+    width: 60%;
 
     div {
       align-items: center;
@@ -43,21 +42,20 @@ export const ProfileStyles = styled.article`
 
   section.contato {
     align-items: center;
-    border-left: 1px solid white;
+    background-color: #363636;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: flex-start;
-    margin-top: 25px;
-    width: 35%;
+    justify-content: space-around;
+    width: 30%;
 
     div {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-top: 25px;
-        width: 100%;
-      }
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 90%;
+    }
 
     img {
       border-radius: 5px;
@@ -68,11 +66,10 @@ export const ProfileStyles = styled.article`
     a {
       align-items: center;
       color: white;
-      background-color: transparent;
-      border: 3px solid #363636;
+      background-color: #1f1f1f;
       border-radius: 10px;
       display: flex;
-      padding: 10px 20px;
+      padding: 10px 15px;
       text-decoration: none;
     }
 
@@ -81,6 +78,17 @@ export const ProfileStyles = styled.article`
     }
 
     h1 {
+      text-align: center;
+      font-size: 1.5em;
+      padding: 10px 0;
+      width: 90%;
+    }
+
+    h2 {
+      background-color: #1f1f1f;
+      border-radius: 10px;
+      padding: 10px 0;
+      text-align: center;
       width: 90%;
     }
   }
@@ -91,6 +99,7 @@ export const ProfileStyles = styled.article`
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
+    margin: 0;
 
     .repeat {
       display: none;
@@ -117,15 +126,21 @@ export const ProfileStyles = styled.article`
       margin-bottom: 75px;
 
       h1 {
-        font-size: 2em;
+        font-size: 1.5em;
         padding: 10px 0;
+        width: 100%;
+      }
+
+      h2 {
+        padding: 10px 0;
+        text-align: center;
         width: 100%;
       }
 
       div {
         font-size: 0.7em;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin-top: 0;
         width: 100%;
       }
