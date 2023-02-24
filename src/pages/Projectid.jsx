@@ -25,16 +25,16 @@ function Projectid() {
     <>
       <Header />
       <ProjectDisplay>
-        <section className='letf'>
-          <div>
+        <section className='left'>
+          <div className='up'>
             <h1>{project.title}</h1>
             <img src={project.image} alt={project.subtitle} />
             <p>{project.subtitle}</p>
           </div>
             
-          <div>
-            <button>Repositório</button>
-            <button>App Online</button>
+          <div className='down'>
+            <a href={project.github}>Repositório</a>
+            <a href={project.deploy}>App Online</a>
           </div>
         </section>
         <section className='rigth'>
