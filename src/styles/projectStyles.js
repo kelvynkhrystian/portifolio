@@ -144,7 +144,8 @@ export const ProjectCard = styled.article`
 
   img {
     border-radius: 15px;
-    width: 300px;
+    height: 60%;
+    width: 90%;
   }
 
   h1 {
@@ -161,10 +162,15 @@ export const ProjectCard = styled.article`
     padding: 0 20px;
   }
 
+  a {
+    margin: 10px;
+    width: 90%;
+  }
+
   button {
     background-color: transparent;
     border: 0 0 1px 2px solid #222222;
-    border-radius: 0 0 15px 15px;
+    border-radius: 10px;
     color: white;
     cursor: pointer;
     font-size: 2em;
@@ -175,14 +181,29 @@ export const ProjectCard = styled.article`
   button:active {
     transform: scale(0.95);
   }
+
+  button:hover {
+    box-shadow: 0px 0px 5px 5px rgba(54,53,54,1);
+  }
   
 
   @media (max-width:600px) {
 
-    width: 80%;
+    margin: 15px 0;
+    padding: 0;
+    width: 90%;
 
     img {
-      width: 100%;
+      width: 90%;
+    }
+
+    a {
+      margin: 10px;
+      width: 90%;
+    }
+
+    button {
+      border-radius: 10px;
     }
     
   }
