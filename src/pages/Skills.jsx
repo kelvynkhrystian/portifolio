@@ -9,9 +9,15 @@ function Skills() {
   const [skills, setSkills] = useState([]);
   const front = skills.filter((elem) => elem.category === 'front')
   const back = skills.filter((elem) => elem.category === 'back')
-  // const test = skills.filter((elem) => elem.category === 'test')
   const ferr = skills.filter((elem) => elem.category === 'ferr')
-  const soft = skills.filter((elem) => elem.category === 'soft')
+  // const test = skills.filter((elem) => elem.category === 'test')
+  // const soft = skills.filter((elem) => elem.category === 'soft')
+
+  // const ShowPreview = (ev) => {
+  //   const id = ev.target
+  //   console.log(id);
+  // }
+  // key={elem.id} onClick={ShowPreview}
 
   useEffect(() => {
 
@@ -37,7 +43,7 @@ function Skills() {
               return (
                 <section>
                   <h1>{elem.title}</h1>
-                  <img src={elem.image} alt={elem.title} />
+                  <img src={elem.image} alt={elem.title}/>
                 </section>
               );
             })}    
@@ -79,7 +85,7 @@ function Skills() {
               })}  
           </fieldset>
 
-          <fieldset>
+          {/* <fieldset>
           <legend>Soft Skills</legend>
             {soft.map((elem) => {
                 return (
@@ -89,7 +95,7 @@ function Skills() {
                   </section>
                 );
               })}  
-          </fieldset>
+          </fieldset> */}
 
         </div>
         <div className='prev'>
