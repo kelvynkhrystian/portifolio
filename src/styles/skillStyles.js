@@ -7,15 +7,14 @@ export const SkillStyles = styled.article`
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 25px;
-  margin-bottom: 50px;
   width: 100%;
 
   div.skills {
     align-items: flex-start;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 70%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
   }
 
   div.prev {
@@ -28,6 +27,7 @@ export const SkillStyles = styled.article`
     background-size: cover;
     color: #0f0f0f;
     display: flex;
+    display: none;
     flex-direction: column;
     height: 100%;
     justify-content: center;
@@ -39,10 +39,10 @@ export const SkillStyles = styled.article`
     border-radius: 10px;
     display: flex;
     border: none;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     flex-wrap: wrap;
     /* margin: 10px 0; */
-    width: 100%;
+    width: 30%;
   }
 
   section {
@@ -141,13 +141,16 @@ export const SkillHeader = styled.article`
   align-items: flex-start;
   background-color: #272727;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   font-size: 1em;
   padding: 10px 50px;
   width: 100%;
 
   p {
-    display: none;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-family: 'Roboto Condensed', sans-serif;
   }
   
@@ -159,9 +162,7 @@ export const SkillHeader = styled.article`
     padding: 10px 30px;
 
     p {
-      display: flex;
-      margin-top: 5px;
-      margin-bottom: 10px;
+      
     }
     
   }

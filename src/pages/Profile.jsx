@@ -30,12 +30,17 @@ function Profile() {
             jogo no ps2, e aproveitar jogando com os amigos, ainda antes de entender
             pq ao inves de gravar dvd, tinha escrito o nome queimar dvd rs.
           </p>
-          <p>Atualmente um estudante de desenvolvimento web da Trybe. Fase 3/4 estudando
-            Backend. Conteúdo atual: Typescript
+          <p>
+            Sou um estudante de web Full Stack da Trybe, onde até agora ja aprendi GIT, 
+            HTML, CSS, JS, Jest, Metodologias ágeis, Kanban, Scrum, Trello, Requisições 
+            em api externas, fiz alguns projetos em grupo para consolidar conhecimentos e 
+            experiêncas em um ambiente de trabalho coletivo. Focando em Frontend aprendi, 
+            REACT, RTL, Redux, Context API, além das Soft Skills. Atualmente focando em Backend, 
+            estudando Typescript.
           </p>
         </section>
         <section className='contato'>
-          <h3> • Contatos</h3>
+          <h1>Fale comigo em uma rede social, ou se preferir envie-me um email!</h1>
           <div>
             <a href="https://www.linkedin.com/in/kelvynkhrystian/">
               
@@ -52,11 +57,11 @@ function Profile() {
               <img src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/rede-social/WhatsApp.png?raw=true" alt="logo linkedin" />
               <p> Whatsapp </p>
             </a>
-            <a href="mailto:khrystian.dev@hotmail.com">
+            {/* <a href="mailto:khrystian.dev@hotmail.com">
               
               <img src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/rede-social/outlook.png?raw=true" alt="logo linkedin" />
               <p> khrystian.dev@hotmail.com </p>
-            </a>
+            </a> */}
           </div>
 
           
