@@ -164,7 +164,7 @@ export const ProjectCard = styled.article`
 
   a {
     /* border: 0 0 1px 2px solid red; */
-    box-shadow: 0px 0px 5px 5px rgba(54,53,54,1);
+    /* box-shadow: 0px 0px 5px 5px rgba(54,53,54,1); */
     margin: 10px;
     width: 90%;
     
@@ -173,11 +173,12 @@ export const ProjectCard = styled.article`
   button {
     background-color: transparent;
     border-radius: 10px;
-    border: 1px 2px solid black;
-    
+    /* border: 3px solid #111111; */
+    /* box-shadow: 0px 0px 5px 5px rgba(54,53,54,1); */
     color: white;
     cursor: pointer;
     font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
     height: 75px;
     width: 100%;
   }
