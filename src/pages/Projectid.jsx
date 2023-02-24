@@ -29,12 +29,12 @@ function Projectid() {
           <div className='up'>
             <h1>{project.title}</h1>
             <img src={project.image} alt={project.subtitle} />
-            <p>{project.subtitle}</p>
+            <h2>{project.subtitle}</h2>
           </div>
             
           <div className='down'>
-            <a href={project.github}>Repositório</a>
-            <a href={project.deploy}>App Online</a>
+            <a href={project.github} className='left' >Repositório</a>
+            <a href={project.deploy} className='rigth' >App Online</a>
           </div>
         </section>
         <section className='rigth'>
@@ -53,7 +53,7 @@ function Projectid() {
           </div>
           <div>
             <h2>Preview Mobile</h2>
-            <img src={project.image} alt={project.subtitle} />
+            <img src={project.image2} alt={project.subtitle} />
           </div>
         </section>
       </ProjectDisplay>
