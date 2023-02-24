@@ -56,6 +56,10 @@ function Projectid() {
           <div className='rigth'>
             <h2>Preview Mobile</h2>
             <img src={project.image2} alt={project.subtitle} />
+            <div className='down'>
+              <a href={project.github} target='blank' className='left' >Repositório</a>
+              <a href={project.deploy} target='blank' className='rigth' >App Online</a>
+            </div>
           </div>
         </section>
       </ProjectDisplay>

@@ -29,6 +29,7 @@ export const ProjectDisplay = styled.article`
     text-align: center;
     margin-bottom: 10px;
     width: 48%;
+
   }
 
   a.rigth {
@@ -134,6 +135,10 @@ export const ProjectDisplay = styled.article`
         border-radius: 15px;
         width: 90%;
       }
+
+      div {
+        display: none;
+      }
     }
   }
 
@@ -200,6 +205,15 @@ export const ProjectDisplay = styled.article`
 
         img {
           margin-bottom: 25px;
+        }
+
+        div {
+          align-items: center;
+          display: flex;
+          font-size: 0.8em;
+          justify-content: space-between;
+          margin-bottom: 25px;
+          width: 100%;
         }
       }
     }
