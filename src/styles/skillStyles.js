@@ -97,6 +97,7 @@ export const SkillStyles = styled.article`
     }
 
     div.skills {
+      flex-direction: column;
       width: 90%;
     }
 
