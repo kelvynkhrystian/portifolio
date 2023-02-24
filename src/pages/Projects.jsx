@@ -93,12 +93,12 @@ function Projects() {
           return (
             <CardProjects
               key={elem.id}
+              id={elem.id}
               title={elem.title}
               subtitle={elem.subtitle}
               image={elem.image}
               github={elem.github}
               deploy={elem.deploy}
-              id={elem.id}
             />
           );
         })}

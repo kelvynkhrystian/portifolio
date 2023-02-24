@@ -1,32 +1,31 @@
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import getProjects from '../utils/getProjects'
 import Header from '../components/Header';
+import { ProjectDisplay } from '../styles/projectIdStyles'
 
 function Projectid() {
 
   const { id } = useParams();
-
-  const [projects, setProjects] = useState([]);
-  const [project] = projects.filter((elem) => {
-    return elem.id.toString() === id
-  })
+  const [project, setProject] = useState([])
 
   useEffect(() => {
 
-    const listProjects = getProjects();
-    setProjects(listProjects)
+    const [filterData] = getProjects().filter((elem) => {
+      return elem.id === id
+    });
 
-  }, [projects]);
+    setProject(filterData)
 
+  }, [id, project]);
+
+  
 
   return (
     <>
       <Header />
-      <div>Id = {id}</div>
-      <div>
-        <section>
-
+      <ProjectDisplay>
+        <section className='letf'>
           <div>
             <h1>{project.title}</h1>
             <img src={project.image} alt={project.subtitle} />
@@ -34,28 +33,22 @@ function Projectid() {
           </div>
             
           <div>
-
-            {/* <Link to={project.github}>
-              <button>Repositório</button>
-            </Link>
-            <Link to={project.deploy}>
-              <button>App Online</button>
-            </Link> */}
-
+            <button>Repositório</button>
+            <button>App Online</button>
           </div>
         </section>
-        <section>
+        <section className='rigth'>
           <div>
             <section>
               <h2>Descrição</h2>
-              {/* <p>{project.description}</p> */}
+
             </section>
             <section>
-              {/* <img src={project.icon} alt={project.subtitle} /> */}
+
             </section>
             <section>
               <h2>Tecnologias Usadas</h2>
-              {/* <p>{project.technologies}</p> */}
+
             </section>
           </div>
           <div>
@@ -63,8 +56,7 @@ function Projectid() {
             <img src={project.image} alt={project.subtitle} />
           </div>
         </section>
-      </div>
-    
+      </ProjectDisplay>
     </>
     
   )

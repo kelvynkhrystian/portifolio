@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { ProjectCard } from '../styles/projectStyles'
 
-function CardProjects({ id, title, subtitle, image}) {
+function CardProjects({ id, title, subtitle, image }) {
 
   const rotaId = `projects/${id}`
 

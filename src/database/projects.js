@@ -1,6 +1,6 @@
 const projects = [
   {
-    id: 1,
+    id: '1',
     title: '1º Portifolio',
     subtitle: "Primeiro contato com o mundo web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/port1.png?raw=true",
@@ -9,7 +9,7 @@ const projects = [
     category: 'no',
   },
   {
-    id: 2,
+    id: '2',
     title: "Formulário",
     subtitle: "Um forms html sobre pets",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/forms1.png?raw=true",
@@ -18,7 +18,7 @@ const projects = [
     category: 'no',
   },
   {
-    id: 3,
+    id: '3',
     title: "Login Page",
     subtitle: "Uma página de login",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/login-page.png?raw=true",
@@ -27,7 +27,7 @@ const projects = [
     category: 'no',
   },
   {
-    id: 4,
+    id: '4',
     title: "Calculadora",
     subtitle: "Calculadora com tema: One piece",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/calculadora.png?raw=true",
@@ -36,7 +36,7 @@ const projects = [
     category: 'js',
   },
   {
-    id: 5,
+    id: '5',
     title: "Formulário 2",
     subtitle: "Um forms JS com melhorias e validações",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/forms2.png?raw=true",
@@ -45,7 +45,7 @@ const projects = [
     category: 'js',
   },
   {
-    id: 6,
+    id: '6',
     title: "To do List",
     subtitle: "Lista de tarefas funcional",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/to-do-list.png?raw=true",
@@ -54,7 +54,7 @@ const projects = [
     category: 'js',
   },
   {
-    id: 7,
+    id: '7',
     title: "Portifólio 2",
     subtitle: "Mobile First, JS e Responsividade",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/port2.png?raw=true",
@@ -63,7 +63,7 @@ const projects = [
     category: 'js',
   },
   {
-    id: 8,
+    id: '8',
     title: "Casa de Câmbio",
     subtitle: "Simula cotação de câmbio com API",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/cambio.png?raw=true",
@@ -72,7 +72,7 @@ const projects = [
     category: 'js',
   },
   {
-    id: 9,
+    id: '9',
     title: "Shopping Cart",
     subtitle: "Carrinho de compras",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/shopping.png?raw=true",
@@ -81,7 +81,7 @@ const projects = [
     category: 'js',
   },
   {
-    id: 10,
+    id: '10',
     title: "Lhama Password",
     subtitle: "Gerador de senhas seguras",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/lhama.gif?raw=true",
