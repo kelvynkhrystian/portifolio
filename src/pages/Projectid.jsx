@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import getProjects from '../utils/getProjects'
 import Header from '../components/Header';
+import DevFullStackBar from '../components/DevFullStackBar';
 import { ProjectDisplay } from '../styles/projectIdStyles'
 
 function Projectid() {
@@ -24,6 +25,7 @@ function Projectid() {
   return (
     <>
       <Header />
+      <DevFullStackBar />
       <ProjectDisplay>
         <section className='left'>
           <div className='up'>
