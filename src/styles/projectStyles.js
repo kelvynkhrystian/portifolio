@@ -172,7 +172,7 @@ export const ProjectCard = styled.article`
   button {
     background-color: transparent;
     border-radius: 10px;
-    border: 1px  2px solid black;
+    border: 1px  solid black;
     color: white;
     cursor: pointer;
     font-size: 2em;
