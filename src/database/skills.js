@@ -166,6 +166,13 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/figma.png?raw=true",
     category: 'ferr',
+  },
+  {
+    id: 25,
+    title: 'Thunder',
+    subtitle: "SO",
+    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/figma.png?raw=true",
+    category: 'ferr',
   }
   
 ]
