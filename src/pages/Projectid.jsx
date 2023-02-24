@@ -43,6 +43,7 @@ function Projectid() {
               <h2>Descrição</h2>
 
             </section>
+            <img src={project.image2} alt="ícone do projeto" />
             <section>
 
             </section>

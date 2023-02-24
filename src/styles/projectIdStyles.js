@@ -72,9 +72,11 @@ export const ProjectDisplay = styled.article`
   }
 
   section.rigth {
+
     align-items: center;
     background-color: #464646;
     border-radius: 5px;
+    display: flex;
     width: 50%;
   }
 
