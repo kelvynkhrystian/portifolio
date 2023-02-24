@@ -5,7 +5,7 @@ export const SkillStyles = styled.article`
   align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 25px;
   margin-bottom: 50px;
   width: 100%;
@@ -15,7 +15,7 @@ export const SkillStyles = styled.article`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 65%;
+    width: 70%;
   }
 
   div.prev {
@@ -37,7 +37,7 @@ export const SkillStyles = styled.article`
     justify-content: space-evenly;
     flex-wrap: wrap;
     /* margin: 10px 0; */
-    width: 95%;
+    width: 100%;
   }
 
   section {
@@ -55,7 +55,7 @@ export const SkillStyles = styled.article`
     margin-bottom: 20px;
     height: 100px;
     padding: 5px;
-    width: 75px;
+    width: 85px;
   }
 
   section:hover {
