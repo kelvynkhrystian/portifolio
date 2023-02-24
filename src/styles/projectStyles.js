@@ -180,7 +180,7 @@ export const ProjectCard = styled.article`
     color: white;
     cursor: pointer;
     font-size: 2em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
     height: 75px;
     width: 100%;
   }
