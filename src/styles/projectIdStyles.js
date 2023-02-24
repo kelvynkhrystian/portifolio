@@ -32,7 +32,7 @@ export const ProjectDisplay = styled.article`
 
   }
 
-  a.rigth {
+  a.right {
     background-color: white;
     color: #111111;
   }
@@ -79,7 +79,7 @@ export const ProjectDisplay = styled.article`
     }
   }
 
-  section.rigth {
+  section.right {
 
     align-items: center;
     background-color: #464646;
@@ -116,7 +116,7 @@ export const ProjectDisplay = styled.article`
         }
     }
 
-    div.rigth {
+    div.right {
       /* font-size: 0.5em; */
       align-items: center;
       display: flex;
@@ -160,7 +160,7 @@ export const ProjectDisplay = styled.article`
       width: 90%;
     }
 
-    section.rigth {
+    section.right {
 
       align-items: center;
       display: flex;
@@ -199,7 +199,7 @@ export const ProjectDisplay = styled.article`
         }
       }
 
-      div.rigth {
+      div.right {
 
         width: 90%;
 

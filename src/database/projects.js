@@ -67,6 +67,7 @@ const projects = [
     title: "Casa de Câmbio",
     subtitle: "Simula cotação de câmbio com API",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/cambio.png?raw=true",
+    icon: "../imgs/icons/cambio.png" ,
     github: "https://github.com/kelvynkhrystian/casaDeCambio",
     deploy: "https://casa-de-cambio-nine.vercel.app/",
     category: 'js',

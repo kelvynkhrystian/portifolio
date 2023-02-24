@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import DevFullStackBar from '../components/DevFullStackBar';
 import { ProjectDisplay } from '../styles/projectIdStyles'
 
-function Projectid() {
+function ProjectId() {
 
   const { id } = useParams();
   const [project, setProject] = useState([])
@@ -36,10 +36,10 @@ function Projectid() {
             
           <div className='down'>
             <a href={project.github} target='blank' className='left' >Repositório</a>
-            <a href={project.deploy} target='blank' className='rigth' >App Online</a>
+            <a href={project.deploy} target='blank' className='right' >App Online</a>
           </div>
         </section>
-        <section className='rigth'>
+        <section className='right'>
           <div className='left'>
             <section>
               <h2>Descrição</h2>
@@ -47,18 +47,19 @@ function Projectid() {
             </section>
             <section>
               <img src={project.icon} alt="ícone do projeto" />
+              <h1>{project.title}</h1>
             </section>
             <section>
               <h2>Tecnologias Usadas</h2>
               <p>{project.technologies}</p>
             </section>
           </div>
-          <div className='rigth'>
+          <div className='right'>
             <h2>Preview Mobile</h2>
             <img src={project.image2} alt={project.subtitle} />
             <div className='down'>
               <a href={project.github} target='blank' className='left' >Repositório</a>
-              <a href={project.deploy} target='blank' className='rigth' >App Online</a>
+              <a href={project.deploy} target='blank' className='right' >App Online</a>
             </div>
           </div>
         </section>
@@ -68,4 +69,4 @@ function Projectid() {
   )
 }
 
-export default Projectid
+export default ProjectId

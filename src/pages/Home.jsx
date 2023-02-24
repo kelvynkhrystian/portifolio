@@ -22,11 +22,11 @@ function Home() {
           <div>
             {/* <button className='left'>Currículo</button> */}
             <Link to="/projects">
-              <button className='rigth'>Ver Projetos ⇾</button>
+              <button className='right'>Ver Projetos ⇾</button>
             </Link>
           </div>
         </div>
-        <div className='rigth-home'>
+        <div className='right-home'>
           <img src={cubo} alt="cubo-transmorfo" />
         </div>
       </HomeStyles>

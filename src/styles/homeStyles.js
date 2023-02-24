@@ -42,7 +42,7 @@ export const HomeStyles = styled.article`
     border: none;
   }
 
-  button.rigth {
+  button.right {
     color: #8c8c8c;
     border: 1px solid #8c8c8c;
     background-color: transparent;
@@ -55,7 +55,7 @@ export const HomeStyles = styled.article`
     background-color: transparent;
   }
 
-  button.rigth:hover {
+  button.right:hover {
     color: #dadada;
     border: 1px solid #dadada;
   }
@@ -121,7 +121,7 @@ export const HomeStyles = styled.article`
       width: 40px;
     }
 
-    .rigth-home {
+    .right-home {
       align-items: center;
       display: flex;
       justify-content: center;
