@@ -34,6 +34,7 @@ export const SkillStyles = styled.article`
   fieldset {
     border-radius: 10px;
     display: flex;
+    border: none;
     justify-content: space-evenly;
     flex-wrap: wrap;
     /* margin: 10px 0; */
@@ -60,6 +61,10 @@ export const SkillStyles = styled.article`
 
   section:hover {
     box-shadow: 0px 0px 5px 5px rgba(54,53,54,1);
+  }
+
+  section:active {
+    transform: scale(0.95);
   }
 
   legend {
