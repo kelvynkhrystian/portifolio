@@ -153,6 +153,7 @@ export const ProjectCard = styled.article`
     font-family: 'Montserrat', sans-serif;
     font-size: 1.7em;
     text-align: center;
+    padding: 5px;
   }
 
   h2 {
@@ -165,7 +166,7 @@ export const ProjectCard = styled.article`
   a {
     /* border: 0 0 1px 2px solid red; */
     /* box-shadow: 0px 0px 5px 5px rgba(54,53,54,1); */
-    margin: 10px;
+    margin: 15px 10px;
     width: 90%;
     
   }
@@ -203,7 +204,7 @@ export const ProjectCard = styled.article`
     }
 
     a {
-      margin: 10px;
+      margin: 15px 10px;
       width: 90%;
     }
 
