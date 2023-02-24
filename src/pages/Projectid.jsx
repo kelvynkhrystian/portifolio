@@ -19,7 +19,6 @@ function Projectid() {
 
   }, [projects]);
 
-  console.log(project);
 
   return (
     <>
