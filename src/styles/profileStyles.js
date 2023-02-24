@@ -75,6 +75,14 @@ export const ProfileStyles = styled.article`
       padding: 10px 20px;
       text-decoration: none;
     }
+
+    a:hover {
+      box-shadow: 0px 0px 2px 2px rgba(54,53,54,1);
+    }
+
+    h1 {
+      width: 90%;
+    }
   }
 
   /* responsividade mobile */
@@ -109,7 +117,9 @@ export const ProfileStyles = styled.article`
       margin-bottom: 75px;
 
       h1 {
-        padding: 10px;
+        font-size: 2em;
+        padding: 10px 0;
+        width: 100%;
       }
 
       div {

@@ -40,7 +40,7 @@ function Profile() {
           </p>
         </section>
         <section className='contato'>
-          <h1>Fale comigo em uma rede social, ou se preferir envie-me um email!</h1>
+          <h1>Contatos:</h1>
           <div>
             <a href="https://www.linkedin.com/in/kelvynkhrystian/">
               
