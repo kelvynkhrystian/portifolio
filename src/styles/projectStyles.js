@@ -144,21 +144,21 @@ export const ProjectCard = styled.article`
 
   img {
     border-radius: 15px;
-    height: 60%;
+    border: 5px solid #111111;
+    margin-top: 15px;
     width: 90%;
   }
 
   h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
-    margin-top: 5px;
+    font-size: 1.7em;
     text-align: center;
   }
 
   h2 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 0 20px;
   }
 
@@ -191,7 +191,7 @@ export const ProjectCard = styled.article`
 
     margin: 15px 0;
     padding: 0;
-    width: 90%;
+    width: 80%;
 
     img {
       width: 90%;
