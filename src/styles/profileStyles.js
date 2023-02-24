@@ -134,7 +134,7 @@ export const ProfileStyles = styled.article`
       h2 {
         padding: 10px 0;
         text-align: center;
-        width: 100%;
+        width: 90%;
       }
 
       div {
