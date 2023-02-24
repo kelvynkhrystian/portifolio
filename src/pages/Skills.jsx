@@ -99,7 +99,8 @@ function Skills() {
 
         </div>
         <div className='prev'>
-          <h1>pre-visualização</h1>
+          {/* <h1>pre-visualização</h1> */}
+          <h1>Eu no momento...</h1>
         </div>
       </SkillStyles>
     </>

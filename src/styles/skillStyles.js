@@ -22,7 +22,11 @@ export const SkillStyles = styled.article`
     align-items: center;
     /* border: 1px solid white; */
     border-radius: 10px;
-    background-image: url('https://i.pinimg.com/originals/eb/07/bd/eb07bd44d9ec8ceacf78e724fe198a66.gif');
+    /* background-image: url('https://i.gifer.com/79tT.gif'); */
+    /* background-image: url('https://gifs.eco.br/wp-content/uploads/2021/09/gifs-aesthetic-wallpaper-para-desktop-e-mobile-5.gif'); */
+    background-image: url('https://phoneky.co.uk/thumbs/screensavers/down/anime/themelanch_Yd5mfRw8.gif');
+    background-size: cover;
+    color: #0f0f0f;
     display: flex;
     flex-direction: column;
     height: 100%;
