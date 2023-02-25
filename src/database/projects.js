@@ -56,7 +56,7 @@ const projects = [
     title: "Formulário 2",
     subtitle: "melhoria do formulário 1",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/forms2.png?raw=true",
-    image2: "",
+    image2: "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/forms22.png?raw=true",
     icon: "https://github.com/kelvynkhrystian/formsJS/blob/main/img/pegadas.gif?raw=true",
     github: "https://github.com/kelvynkhrystian/formsJS",
     deploy: "https://forms-js.vercel.app/",
