@@ -33,7 +33,7 @@ const projects = [
   {
     id: '4',
     title: "Calculadora",
-    subtitle: "Calculadora com tema: One piece",
+    subtitle: "Tema: One piece",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/calculadora.png?raw=true",
     github: "https://github.com/kelvynkhrystian/calculadora",
     deploy: "https://calculadora-omega-two.vercel.app/",
@@ -42,7 +42,7 @@ const projects = [
   {
     id: '5',
     title: "Formulário 2",
-    subtitle: "Um forms JS com melhorias e validações",
+    subtitle: "melhoria do formulário 1",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/forms2.png?raw=true",
     github: "https://github.com/kelvynkhrystian/formsJS",
     deploy: "https://forms-js.vercel.app/",
@@ -59,8 +59,8 @@ const projects = [
   },
   {
     id: '7',
-    title: "Portifólio 2",
-    subtitle: "Mobile First, JS e Responsividade",
+    title: "Portifólio",
+    subtitle: "Evolução",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/port2.png?raw=true",
     github: "https://github.com/kelvynkhrystian/kelvynkhrystian.github.io",
     deploy: "https://kelvynkhrystian.github.io/",
@@ -69,7 +69,7 @@ const projects = [
   {
     id: '8',
     title: "Casa de Câmbio",
-    subtitle: "Simula cotação de câmbio com API",
+    subtitle: "Cotação de Câmbio",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/cambio.png?raw=true",
     github: "https://github.com/kelvynkhrystian/casaDeCambio",
     deploy: "https://casa-de-cambio-nine.vercel.app/",
@@ -87,7 +87,7 @@ const projects = [
   {
     id: '10',
     title: "Lhama Password",
-    subtitle: "Gerador de senhas seguras",
+    subtitle: "Gerador de Senhas",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/lhama.png?raw=true",
     image2 : 'https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/lhama2.png?raw=true',
     icon: 'https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/lhama3.png?raw=true',
