@@ -31,7 +31,7 @@ const projects = [
     subtitle: "Uma página de login",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/login-page.png?raw=true",
     image2: "",
-    icon: "",
+    icon: "https://convenientmd.com/wp-content/uploads/2021/12/12062021_COVID-Results-Page-ICONS-02.png",
     github: "https://github.com/kelvynkhrystian/login-page",
     deploy: "https://login-page-nine-mocha.vercel.app/",
     category: 'no',
