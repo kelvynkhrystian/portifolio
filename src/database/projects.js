@@ -44,11 +44,11 @@ const projects = [
     subtitle: "Tema: One piece",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/calculadora.png?raw=true",
     image2: "https://user-images.githubusercontent.com/94154348/170815395-7352d6c2-970a-49aa-bf20-935212e39f1c.png",
-    icon: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bb334354-bc40-4b31-86dc-a129ab33d54b/d5egjah-3eef9225-722b-450f-a48a-707f5d564583.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JiMzM0MzU0LWJjNDAtNGIzMS04NmRjLWExMjlhYjMzZDU0YlwvZDVlZ2phaC0zZWVmOTIyNS03MjJiLTQ1MGYtYTQ4YS03MDdmNWQ1NjQ1ODMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.P6WYO6N-ybsKTBRDABUYEt52LZUre-cD9x-gNu9glJo",
+    icon: "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/calc.png?raw=true",
     github: "https://github.com/kelvynkhrystian/calculadora",
     deploy: "https://calculadora-omega-two.vercel.app/",
     category: 'js',
-    description: "Treinando Abstração, HTML, CSS e JS",
+    description: "Treinando Abstração, HTML, CSS e JS, e ainda fiz o arquivo .APK por um programa na web que transforma html em apk.",
     technologies: "Html, Css, Javascript",
   },
   {
