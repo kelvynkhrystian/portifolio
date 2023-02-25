@@ -87,8 +87,8 @@ const projects = [
     github: "https://github.com/kelvynkhrystian/kelvynkhrystian.github.io",
     deploy: "https://kelvynkhrystian.github.io/",
     category: 'js',
-    description: "",
-    technologies: "",
+    description: "Utilizando conceitos de Html semântico, CSS flexbox, Eventos em JS e criatividade de ir testando o que eu achava interessante! guardei idéias em arquivos separados e arrumei um tempo para organizar, pois em um início de jornada é sempre bom uma dose de motivação sincera ao ver que está crescendo aos poucos.",
+    technologies: "HTML5, CSS3, Javascript",
   },
   {
     id: '8',
