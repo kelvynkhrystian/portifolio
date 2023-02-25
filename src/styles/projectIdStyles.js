@@ -112,8 +112,12 @@ export const ProjectDisplay = styled.article`
       }
 
       img {
-          width: 150px;
-        }
+        width: 150px;
+      }
+
+      p {
+        text-align: left;
+      }
     }
 
     div.rigth {
