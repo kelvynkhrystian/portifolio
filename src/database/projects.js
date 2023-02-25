@@ -109,7 +109,7 @@ const projects = [
     subtitle: "Carrinho de compras",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/shopping.png?raw=true",
     image2: "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/shopping2.png?raw=true",
-    icon: "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/shopping4.png?raw=true",
+    icon: "https://cdn-icons-png.flaticon.com/512/4896/4896290.png",
     github: "https://github.com/kelvynkhrystian/shoppingCart",
     deploy: "https://shopping-zeta-jade.vercel.app/",
     category: 'js',
