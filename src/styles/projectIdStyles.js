@@ -112,7 +112,7 @@ export const ProjectDisplay = styled.article`
       }
 
       img {
-        width: 150px;
+        width: 120px;
       }
 
       p {
