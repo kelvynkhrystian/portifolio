@@ -190,7 +190,8 @@ export const ProjectCard = styled.article`
   }
 
   button:hover {
-    box-shadow: 0px 0px 5px 5px rgba(54,53,54,1);
+    border-bottom: #363636 1px solid;
+    border-top: gray 1px solid;
   }
   
 
