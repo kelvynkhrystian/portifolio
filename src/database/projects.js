@@ -3,7 +3,7 @@ const projects = [
     id: '1',
     title: '1º Portifolio',
     subtitle: "Primeiro contato web",
-    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/port1.png?raw=true",
+    image : "",
     image2 : 'https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/port1-mob.png?raw=true',
     icon: 'https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/html.png?raw=true',
     github: "https://github.com/kelvynkhrystian/kelvynkhrystian.github.io",
