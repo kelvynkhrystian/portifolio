@@ -2,11 +2,15 @@ const projects = [
   {
     id: '1',
     title: '1º Portifolio',
-    subtitle: "Primeiro contato com o mundo web",
+    subtitle: "Primeiro contato web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/port1.png?raw=true",
-    github: "https://github.com/kelvynkhrystian",
-    deploy: "https://github.com/kelvynkhrystian",
+    image2 : 'https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/lhama2.png?raw=true',
+    icon: 'https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/lhama3.png?raw=true',
+    github: "https://github.com/kelvynkhrystian/kelvynkhrystian.github.io",
+    deploy: "https://github.com/kelvynkhrystian/kelvynkhrystian.github.io",
     category: 'no',
+    description: 'Meu primeiro portilólio html e meu primeiro contato, nos links de repositório e deploy levam ao meu portifólio antes de ser feito em react e lá tem um vídeo demonstrando a evolução de todo processo a partir deste aqui',
+    technologies: 'HTML',
   },
   {
     id: '2',
