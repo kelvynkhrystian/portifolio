@@ -1,9 +1,12 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Header from '../components/Header'
-import { HomeStyles } from '../styles/homeStyles'
-import cubo from '../imgs/background/cubo.gif'
-import dino from '../imgs/icons/dino.gif'
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+import Header from '../components/Header';
+
+import cubo from '../imgs/background/cubo.gif';
+import dino from '../imgs/icons/dino.gif';
+
+import { HomeStyles } from '../styles/homeStyles';
 
 function Home() {
   return (
@@ -13,14 +16,16 @@ function Home() {
         <div className='left-home'>
           <h1>
             KELVYN
-            <img src={dino} alt="dino-chrome" />
+            <img src={dino} alt="dino do chrome" />
           </h1>
           <h1>KHRYSTIAN</h1>
           <p>
             Dev-FullStack
           </p>
           <div>
-            {/* <button className='left'>Currículo</button> */}
+            <a href="https://drive.google.com/file/d/1G7KMqEZCVLAl83quSzZNFvFHANVT5pkg/view?usp=sharing" target='blank'>
+              <button className='left'>Baixar CV</button>
+            </a>
             <Link to="/projects">
               <button className='rigth'>Ver Projetos ⇾</button>
             </Link>
