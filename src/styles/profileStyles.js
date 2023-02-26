@@ -88,6 +88,7 @@ export const ProfileStyles = styled.article`
       background-color: #1f1f1f;
       border-radius: 10px;
       padding: 10px 0;
+      margin-bottom: 10px;
       text-align: center;
       width: 90%;
     }
