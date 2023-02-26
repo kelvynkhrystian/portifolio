@@ -42,33 +42,27 @@ function Profile() {
         <section className='contato'>
           <h1>Entre em contato via rede social</h1>
           <div>
-            <a href="https://www.linkedin.com/in/kelvynkhrystian/" target='blank'>
+            <a href="https://www.linkedin.com/in/kelvynkhrystian/" target='_blank' rel='noopener noreferrer'>
               
               <img src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/rede-social/linkedin.png?raw=true" alt="logo linkedin" />
               <p> Linkedin </p>
             </a>
-            <a href="https://github.com/kelvynkhrystian" target='blank'>
+            <a href="https://github.com/kelvynkhrystian" target='_blank' rel='noopener noreferrer'>
               
               <img src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/rede-social/github.png?raw=true" alt="logo linkedin" />
               <p> Github </p>
             </a>
-            <a href="https://clicano.link/khystiandev" target='blank'>
+            <a href="https://clicano.link/khystiandev" target='_blank' rel='noopener noreferrer'>
               
               <img src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/rede-social/WhatsApp.png?raw=true" alt="logo linkedin" />
               <p> Whatsapp </p>
             </a>
-            {/* <a href="mailto:khrystian.dev@hotmail.com">
-              
-              <img src="https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/rede-social/outlook.png?raw=true" alt="logo linkedin" />
-              <p> khrystian.dev@hotmail.com </p>
-            </a> */}
           </div>
           <h1> ou envie um email para:</h1>
           <h2> • khrystian.dev@hotmail.com •</h2>
           
         </section>
         
-
       </ProfileStyles>
     </>
   )
