@@ -23,7 +23,7 @@ function Home() {
             Dev-FullStack
           </p>
           <div>
-            <a href="https://drive.google.com/file/d/1G7KMqEZCVLAl83quSzZNFvFHANVT5pkg/view?usp=sharing" target='blank'>
+            <a href="https://drive.google.com/file/d/1G7KMqEZCVLAl83quSzZNFvFHANVT5pkg/view?usp=sharing" target='_blank' rel='noopener noreferrer'>
               <button className='left'>Baixar CV</button>
             </a>
             <Link to="/projects">
