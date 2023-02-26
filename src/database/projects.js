@@ -18,7 +18,7 @@ const projects = [
     subtitle: "Um forms html sobre pets",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/forms1.png?raw=true",
     image2: "https://user-images.githubusercontent.com/94154348/191156276-a10b8c1b-719f-4fcd-abbf-c1842387d617.png",
-    icon: "",
+    icon: "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/linke.png?raw=true",
     github: "https://github.com/kelvynkhrystian/formulario",
     deploy: "https://formulario-nine-orcin.vercel.app/",
     category: 'no',
