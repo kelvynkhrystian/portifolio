@@ -98,7 +98,19 @@ export const SkillStyles = styled.article`
     height: 60%;
     background-color: white;
     z-index: 9999;
-    padding: 20px;
+    /* padding: 20px; */
+    border: 2px solid transparent;
+    border-image: linear-gradient(
+      to right,
+      #464646,
+      #232323,
+      #464646,
+      #232323,
+      #464646
+    );
+    box-shadow: 0px 0px 10px #fff, 0px 0px 20px #fff, 0px 0px 40px #616161,
+      0px 0px 60px #616161, 0px 0px 80px #616161;
+    padding: 10px;
 
     img {
       height: 200px;
