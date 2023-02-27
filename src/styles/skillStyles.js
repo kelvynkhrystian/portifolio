@@ -111,6 +111,7 @@ export const SkillStyles = styled.article`
     box-shadow: 0px 0px 10px #fff, 0px 0px 2px #fff, 0px 0px 4px #616161,
       0px 0px 10px #616161, 0px 0px 8px #616161;
     padding: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
 
     img {
       height: 200px;
