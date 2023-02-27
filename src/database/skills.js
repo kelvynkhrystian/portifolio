@@ -37,7 +37,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/redux.png?raw=true",
     category: 'front',
-    description: '',
+    description: 'Redux é uma biblioteca JavaScript de código aberto para gerenciar o estado do aplicativo. É mais comumente usado com bibliotecas como React ou Angular para criar interfaces de usuário. ',
   },
   {
     id: '6',
