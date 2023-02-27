@@ -160,6 +160,11 @@ export const SkillStyles = styled.article`
 
     .modal {
       width: 70%;
+
+      img {
+        height: 150px;
+        width: 150px;
+      }
     }
 
 
