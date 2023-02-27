@@ -99,7 +99,7 @@ export const SkillStyles = styled.article`
     background-color: white;
     z-index: 9999;
     /* padding: 20px; */
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     border-image: linear-gradient(
       to right,
       #464646,
