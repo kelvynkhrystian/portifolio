@@ -125,7 +125,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/mocha.png?raw=true",
     category: 'back',
-    description: '',
+    description: 'O Mocha é um framework de testes unitários simples e bastante prático. Você poderá testar ele no lado do servidor com o Node ou no lado do cliente, em seu navegador.',
   },
   {
     id: '17',
