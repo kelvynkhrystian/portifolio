@@ -108,8 +108,8 @@ export const SkillStyles = styled.article`
       #232323,
       #464646
     );
-    box-shadow: 0px 0px 10px #fff, 0px 0px 20px #fff, 0px 0px 40px #616161,
-      0px 0px 60px #616161, 0px 0px 80px #616161;
+    box-shadow: 0px 0px 10px #fff, 0px 0px 2px #fff, 0px 0px 4px #616161,
+      0px 0px 10px #616161, 0px 0px 8px #616161;
     padding: 25px;
 
     img {
