@@ -109,7 +109,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://raw.githubusercontent.com/kelvynkhrystian/portifolio/8adbb4d1c4c9bb82c85f3bed6454bb3ebf583eb1/src/imgs/skills/jwt.svg",
     category: 'back',
-    description: '',
+    description: 'O JSON Web Token é um padrão da Internet para a criação de dados com assinatura opcional e/ou criptografia cujo payload contém o JSON que afirma algum número de declarações. Os tokens são assinados usando um segredo privado ou uma chave pública/privada. ',
   },
   {
     id: '15',
