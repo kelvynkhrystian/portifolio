@@ -61,6 +61,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://raw.githubusercontent.com/kelvynkhrystian/portifolio/6d10f3e63f0443af570bf510386634ff4c5a0438/src/imgs/skills/jest.svg",
     category: 'front',
+    description: 'Jest é uma estrutura de teste de JavaScript construída sobre o Jasmine e mantida pela Meta. Ele foi projetado e construído por Christoph Nakazawa com foco na simplicidade e suporte para grandes aplicativos da web. ',
   },
   {
     id: '9',
