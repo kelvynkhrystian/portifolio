@@ -28,7 +28,7 @@ function Profile() {
             Desde criança fascinado por tecnologia desenvolvendo minha curiosidade,
             conseguindo meu primeiro grande feito, baixar e gravar meu primeiro 
             jogo no ps2, e aproveitar jogando com os amigos, ainda antes de entender
-            pq ao inves de gravar dvd, tinha escrito o nome queimar dvd rs.
+            pq ao inves de gravar dvd, tinha escrito o nome queimar dvd no app nero rs.
           </p>
           <p>
             Sou um estudante de web Full Stack da Trybe, onde até agora ja aprendi GIT, 
