@@ -13,6 +13,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/css.png?raw=true",
     category: 'front',
+    description: "CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo usada para descrever a apresentação de um documento escrito em HTML ou em XML.",
   },
   {
     id: '3',
@@ -20,6 +21,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/js.png?raw=true",
     category: 'front',
+    description: '',
   },
   {
     id: '4',
@@ -27,6 +29,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/react.png?raw=true",
     category: 'front',
+    description: '',
   },
   {
     id: '5',
@@ -34,6 +37,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/redux.png?raw=true",
     category: 'front',
+    description: '',
   },
   {
     id: '6',
@@ -41,6 +45,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/context.png?raw=true",
     category: 'front',
+    description: '',
   },
   {
     id: '7',
@@ -48,6 +53,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/styled.png?raw=true",
     category: 'front',
+    description: '',
   },
   {
     id: '8',
@@ -62,6 +68,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/rtl.png?raw=true",
     category: 'front',
+    description: '',
   },
   {
     id: '10',
@@ -69,6 +76,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/node.png?raw=true",
     category: 'back',
+    description: '',
   },
   {
     id: '11',
@@ -76,6 +84,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/mysql.png?raw=true",
     category: 'back',
+    description: '',
   },
   {
     id: '12',
@@ -83,6 +92,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/exp.png?raw=true",
     category: 'back',
+    description: '',
   },
   {
     id: '13',
@@ -90,6 +100,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/sequelize.png?raw=true",
     category: 'back',
+    description: '',
   },
   {
     id: '14',
@@ -97,6 +108,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://raw.githubusercontent.com/kelvynkhrystian/portifolio/8adbb4d1c4c9bb82c85f3bed6454bb3ebf583eb1/src/imgs/skills/jwt.svg",
     category: 'back',
+    description: '',
   },
   {
     id: '15',
@@ -104,6 +116,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/chai.png?raw=true",
     category: 'back',
+    description: '',
   },
   {
     id: '16',
@@ -111,6 +124,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/mocha.png?raw=true",
     category: 'back',
+    description: '',
   },
   {
     id: '17',
@@ -118,6 +132,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/sinon.png?raw=true",
     category: 'back',
+    description: '',
   },
   {
     id: '18',
@@ -125,6 +140,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/linux.png?raw=true",
     category: 'ferr',
+    description: '',
   },
   {
     id: '19',
@@ -132,6 +148,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/git.png?raw=true",
     category: 'ferr',
+    description: '',
   },
   {
     id: '20',
@@ -139,6 +156,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/docker.png?raw=true",
     category: 'ferr',
+    description: '',
   },
   {
     id: '21',
@@ -146,6 +164,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/vercel.jpg?raw=true",
     category: 'ferr',
+    description: '',
   },
   {
     id: '22',
@@ -153,6 +172,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/trello.png?raw=true",
     category: 'ferr',
+    description: '',
   },
   {
     id: '23',
@@ -160,6 +180,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/slack.png?raw=true",
     category: 'ferr',
+    description: '',
   },
   {
     id: '24',
@@ -167,6 +188,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/figma.png?raw=true",
     category: 'ferr',
+    description: '',
   },
   {
     id: '25',
@@ -174,6 +196,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/thunder.png?raw=true",
     category: 'ferr',
+    description: '',
   }
   
 ]
