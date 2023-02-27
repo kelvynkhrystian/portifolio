@@ -69,7 +69,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/rtl.png?raw=true",
     category: 'front',
-    description: '',
+    description: 'React Testing Library é um conjunto de utilitários que permitem testar componentes React sem depender dos detalhes de implementação. Essa abordagem facilita a refatoração e também te orienta para as melhores práticas de acessibilidade.',
   },
   {
     id: '10',
@@ -77,7 +77,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/node.png?raw=true",
     category: 'back',
-    description: '',
+    description: 'Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos.',
   },
   {
     id: '11',
@@ -85,7 +85,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/mysql.png?raw=true",
     category: 'back',
-    description: '',
+    description: 'a',
   },
   {
     id: '12',
