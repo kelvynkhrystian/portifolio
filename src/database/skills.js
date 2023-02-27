@@ -133,7 +133,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/sinon.png?raw=true",
     category: 'back',
-    description: '',
+    description: 'O Sinon é um pacote open-source que fornece diversas funcionalidades (como mocks, spies e stubs) que facilitam os nossos testes no JavaScript. O Sinon por sí só não é um framework de testes, ele deve ser utilizado em conjunto com outra ferramenta para execução de testes, como por exemplo o Mocha ou Ava.',
   },
   {
     id: '18',
