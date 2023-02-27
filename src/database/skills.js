@@ -141,7 +141,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/linux.png?raw=true",
     category: 'ferr',
-    description: '',
+    description: 'Linux é um termo popularmente empregado para se referir a sistemas operativos ou sistemas operacionais que utilizam o Kernel Linux. ',
   },
   {
     id: '19',
@@ -149,7 +149,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/git.png?raw=true",
     category: 'ferr',
-    description: '',
+    description: 'Git ₍ₒᵤ em inglês britânico₎ é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. ',
   },
   {
     id: '20',
@@ -157,7 +157,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/docker.png?raw=true",
     category: 'ferr',
-    description: '',
+    description: 'Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração.',
   },
   {
     id: '21',
@@ -165,7 +165,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/vercel.jpg?raw=true",
     category: 'ferr',
-    description: '',
+    description: 'Vercel Inc., anteriormente Zeit, é uma plataforma de nuvem americana como empresa de serviços. A empresa mantém a estrutura de desenvolvimento web Next.js. A arquitetura da Vercel é construída em torno do Jamstack e as implantações são feitas por meio de repositórios Git. A',
   },
   {
     id: '22',
@@ -173,7 +173,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/trello.png?raw=true",
     category: 'ferr',
-    description: '',
+    description: 'Trello é um aplicativo de gerenciamento de projeto baseado na web originalmente desenvolvido em 2011 pela então Fog Creek Software. Em 2017, foi adquirido pela empresa australiana Atlassian. Ele opera um modelo de negócio freemium.',
   },
   {
     id: '23',
@@ -181,7 +181,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/slack.png?raw=true",
     category: 'ferr',
-    description: '',
+    description: 'Slack é um programa de mensagens instantâneas desenvolvido pela Slack Technologies e de propriedade da Salesforce. Embora o Slack tenha sido desenvolvido para comunicações profissionais e organizacionais, ele também foi adotado como uma plataforma comunitária.',
   },
   {
     id: '24',
@@ -189,7 +189,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/figma.png?raw=true",
     category: 'ferr',
-    description: '',
+    description: 'Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web, com ferramentas offline adicionais para aplicações desktop para GNU/Linux, macOS e Windows.',
   },
   {
     id: '25',
@@ -197,7 +197,7 @@ const skills = [
     subtitle: "SO",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/thunder.png?raw=true",
     category: 'ferr',
-    description: '',
+    description: 'Thunder Client – Requisições HTTP a partir do Visual Studio Code. No mundo do desenvolvimento Web, o Postman é a ferramenta mais escolhida para realizar testes em APIs. No entanto, depender de uma ferramenta externa pode muitas vezes dificultar o desenvolvimento e testagem.',
   }
   
 ]
