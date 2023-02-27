@@ -29,7 +29,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/react.png?raw=true",
     category: 'front',
-    description: '',
+    description: 'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
   },
   {
     id: '5',
