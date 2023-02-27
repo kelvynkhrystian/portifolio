@@ -101,7 +101,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/sequelize.png?raw=true",
     category: 'back',
-    description: '',
+    description: 'Sequelize é o nome do ORM que usaremos. O Sequelize abstrai os comandos de operações de SQL, e faz com que possamos usar linguagem de programação que já estamos usando no backend para nos conectarmos e operarmos o banco.',
   },
   {
     id: '14',
