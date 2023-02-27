@@ -45,7 +45,7 @@ const skills = [
     subtitle: "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/skills/context.png?raw=true",
     category: 'front',
-    description: '',
+    description: 'O React context API é um gerenciador de estado global e é uma funcionalidade implementada a pouco tempo no ecossistema do React, podendo resolver 90% das soluções do Redux de forma extremamente simples.',
   },
   {
     id: '7',
