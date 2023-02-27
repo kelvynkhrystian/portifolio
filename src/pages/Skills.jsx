@@ -31,6 +31,7 @@ function Skills() {
                 key={skill.id}
                 title={skill.title}
                 image={skill.image}
+                description={skill.description}
               />
             ))}
           </fieldset>
