@@ -94,7 +94,7 @@ export const SkillStyles = styled.article`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 22%;
+    width: 30%;
     height: 60%;
     background-color: white;
     z-index: 9999;
@@ -110,7 +110,7 @@ export const SkillStyles = styled.article`
     );
     box-shadow: 0px 0px 10px #fff, 0px 0px 20px #fff, 0px 0px 40px #616161,
       0px 0px 60px #616161, 0px 0px 80px #616161;
-    padding: 10px;
+    padding: 25px;
 
     img {
       height: 200px;
