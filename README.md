@@ -1,10 +1,12 @@
 # 🔒 Portifólio Kelvyn Khrystian 🔒
 
+## [Clique aqui](https://kelvyn-khrystian.vercel.app/) para acessar o app online!
+
 https://user-images.githubusercontent.com/94154348/222009224-ca9b0177-5546-4100-8ea3-4bee0533277f.mp4
 
 # 📄 Sobre
 
-### Um portifólio feito em react, demonstrando meus conhecimentos e projetos práticos da minha tragetória entrando no mundo da programação.
+### Um portifólio feito em React.js, demonstrando meus conhecimentos e projetos práticos da minha tragetória entrando no mundo da programação.
 ###### Status: adicionando projetos
 ###### Ultima att: adicionando currículo
 
