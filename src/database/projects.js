@@ -128,6 +128,19 @@ const projects = [
     category: 'react',
     description: 'Um app com objetivo de criar senhas aleatórias e seguras com 16 caracteres. Sendo eles letras maiúsculas e minúsculas, números e simbolos.',
     technologies: 'HTML5, CSS3, Javascript ES6, React, Styled Components, Bibliteca Copy-To-Clipboard e Biblioteca React-Tostify',
+  },
+  {
+    id: '11',
+    title: "KTunes",
+    subtitle: "App de Músicas",
+    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/lhama.png?raw=true",
+    image2 : 'https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/lhama2.png?raw=true',
+    icon: 'https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/icons/lhama3.png?raw=true',
+    github: "https://github.com/kelvynkhrystian/khrystianTunes",
+    deploy: "https://khrystian-tunes.vercel.app/",
+    category: 'react',
+    description: 'Um app que busca músicas na api e consegue reproduzidas',
+    technologies: 'React, Css Modules, APIs Externas',
   }
 
 ];
