@@ -133,7 +133,7 @@ const projects = [
     id: '11',
     title: "KTunes",
     subtitle: "App de Músicas",
-    image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/khrystian-tunes-pc.png?raw=true",
+    image : "https://media.licdn.com/dms/image/D4D22AQGfzTtTno1vhA/feedshare-shrink_800/0/1689015978313?e=1691625600&v=beta&t=QOPxz01lExzZh98C-PceVJufTIOvAHMJYBmVo_dcGD0",
     image2 : 'https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/mob-tunes.png?raw=true',
     icon: 'https://github.com/kelvynkhrystian/khrystianTunes/blob/main/public/iconHeadfone.png?raw=true',
     github: "https://github.com/kelvynkhrystian/khrystianTunes",
