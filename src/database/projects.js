@@ -134,7 +134,7 @@ const projects = [
     title: "KTunes",
     subtitle: "App de Músicas",
     image : "https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/khrystian-tunes-pc.png?raw=true",
-    image2 : 'https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/khrystian-tunes-mob.png?raw=true',
+    image2 : 'https://github.com/kelvynkhrystian/portifolio/blob/main/src/imgs/projects/mob-tunes.png?raw=true',
     icon: 'https://github.com/kelvynkhrystian/khrystianTunes/blob/main/public/iconHeadfone.png?raw=true',
     github: "https://github.com/kelvynkhrystian/khrystianTunes",
     deploy: "https://khrystian-tunes.vercel.app/",
