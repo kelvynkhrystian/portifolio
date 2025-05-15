@@ -51,4 +51,4 @@ http://localhost:3000/
 * Responsividade
 * Corel Draw
 * React Testing Library
-   ###### RTL será implementado em breve
+   ###### RTL será implementado em breve.
